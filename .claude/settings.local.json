@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.bauer.com)",
+      "WebFetch(domain:www.ccmhockey.com)",
+      "WebFetch(domain:www.truehockey.com)",
+      "WebFetch(domain:www.warrior.com)",
+      "WebFetch(domain:www.true-sports.com)",
+      "Bash(find '/Users/marcwiedenmann/Claude Hockey App' -name *.js -o -name *.json)",
+      "Bash(npm install:*)",
+      "Bash(brew --version)",
+      "Bash(brew install:*)",
+      "Bash(npm --version)",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:www.total-hockey.com)",
+      "WebFetch(domain:www.true-hockey.com)",
+      "WebFetch(domain:customskates.true-sports.com)",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(node -e \":*)"
+    ]
+  }
+}

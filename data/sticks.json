@@ -1,0 +1,6248 @@
+[
+  {
+    "id": "bauer-vapor-flylite",
+    "brand": "Bauer",
+    "model": "Vapor FlyLite",
+    "line": "Vapor",
+    "tier": "elite",
+    "tagline": {
+      "en": "The ultimate quick-release weapon",
+      "de": "Die ultimative Schnellschuss-Waffe",
+      "fr": "L'arme ultime du tir rapide"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "youth",
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Lightning-fast release for snipers",
+        "Exceptional puck feel and blade responsiveness",
+        "Available in all size categories"
+      ],
+      "de": [
+        "Blitzschneller Abzug für Scharfschützen",
+        "Aussergewöhnliches Puckgefühl und Blattreaktion",
+        "In allen Grössen erhältlich"
+      ],
+      "fr": [
+        "Tir ultra-rapide pour les snipers",
+        "Sensation de palette et reactivite exceptionnelles",
+        "Disponible dans toutes les tailles"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Less power on slapshots than mid-kick sticks",
+        "Premium price point"
+      ],
+      "de": [
+        "Weniger Kraft bei Slapshots als Mid-Kick-Schläger",
+        "Hoher Preis"
+      ],
+      "fr": [
+        "Moins de puissance en tir frappe qu'un mid-kick",
+        "Prix eleve"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick point loads and releases instantly, giving you the fastest wrist and snap shots on the ice.",
+        "de": "Der tiefe Kickpoint lädt und schiesst blitzschnell — für die schnellsten Handgelenkschüsse auf dem Eis.",
+        "fr": "Le point de flexion bas charge et libere instantanement pour les tirs du poignet les plus rapides."
+      },
+      "defender": {
+        "en": "Light weight and quick blade response help you move the puck out of the zone with precise outlet passes.",
+        "de": "Leicht und reaktionsschnell für präzise Paesse aus der eigenen Zone.",
+        "fr": "Leger et reactif pour des passes de degagement precises depuis votre zone."
+      },
+      "power-forward": {
+        "en": "Quick release lets you fire from awkward angles near the net while battling for position.",
+        "de": "Schneller Abzug ermöglicht Schüsse aus schwierigen Winkeln nahe dem Tor.",
+        "fr": "Le tir rapide permet de tirer depuis des angles difficiles pres du filet."
+      },
+      "grinder": {
+        "en": "Responsive blade makes redirections and tip-ins easy in front of the crease.",
+        "de": "Das reaktionsschnelle Blatt erleichtert Umlenkungen und Tip-Ins vor dem Tor.",
+        "fr": "La palette reactive facilite les deviations et tip-ins devant le filet."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/vapor/",
+    "lastScraped": "2026-04-02T08:41:37.559Z",
+    "flexRange": {
+      "junior": {
+        "min": 30,
+        "max": 50
+      },
+      "intermediate": {
+        "min": 55,
+        "max": 65
+      },
+      "senior": {
+        "min": 70,
+        "max": 87
+      }
+    }
+  },
+  {
+    "id": "bauer-vapor-flypro",
+    "brand": "Bauer",
+    "model": "Vapor FlyPro",
+    "line": "Vapor",
+    "tier": "elite",
+    "tagline": {
+      "en": "Pro-level speed at elite value",
+      "de": "Profi-Geschwindigkeit zum Elite-Preis",
+      "fr": "Vitesse professionnelle a prix elite"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Near-flagship quick release performance",
+        "Lighter than previous generation models",
+        "Excellent value for elite-level play"
+      ],
+      "de": [
+        "Beinahe Flaggschiff-Schnelligkeit beim Abzug",
+        "Leichter als Vorgaengermodelle",
+        "Hervorragendes Preis-Leistungs-Verhaeltnis"
+      ],
+      "fr": [
+        "Performance de tir rapide proche du haut de gamme",
+        "Plus leger que les modeles precedents",
+        "Excellent rapport qualite-prix"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Slightly heavier than the FlyLite",
+        "No youth size available"
+      ],
+      "de": [
+        "Etwas schwerer als der FlyLite",
+        "Keine Jugendgrösse verfügbar"
+      ],
+      "fr": [
+        "Legerement plus lourd que le FlyLite",
+        "Pas de taille jeune disponible"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Quick-release low kick gets shots off fast, and the responsive blade loads energy efficiently for snap shots.",
+        "de": "Der tiefe Kickpoint ermöglicht schnelle Schüsse, das reaktionsschnelle Blatt speichert Energie für Schnappschüsse.",
+        "fr": "Le kick bas libere les tirs rapidement avec une palette qui charge l'energie efficacement."
+      },
+      "defender": {
+        "en": "Lightweight build reduces fatigue during long shifts while maintaining precision on clearing passes.",
+        "de": "Die leichte Bauweise reduziert Ermüdung bei langen Wechseln und haelt die Präzision bei Befreiungspaessen.",
+        "fr": "La construction legere reduit la fatigue tout en maintenant la precision des passes de degagement."
+      },
+      "power-forward": {
+        "en": "The quick release lets you capitalize on rebounds and loose pucks in front of the net.",
+        "de": "Der schnelle Abzug hilft dir, Abpraller und lose Pucks vor dem Tor zu verwerten.",
+        "fr": "Le tir rapide permet de profiter des retours et des rondelles libres devant le filet."
+      },
+      "grinder": {
+        "en": "Light and responsive for fast plays along the boards and quick shots from tight spaces.",
+        "de": "Leicht und reaktionsschnell für schnelle Spielzuege an der Bande und Schüsse aus der Enge.",
+        "fr": "Leger et reactif pour des jeux rapides le long de la bande et des tirs en espace reduit."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/vapor/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-vapor-fly40",
+    "brand": "Bauer",
+    "model": "Vapor Fly40",
+    "line": "Vapor",
+    "tier": "performance",
+    "tagline": {
+      "en": "Quick release for the developing player",
+      "de": "Schneller Abzug für aufstrebende Spieler",
+      "fr": "Tir rapide pour le joueur en progression"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Accessible Vapor quick-release technology",
+        "Good balance of performance and durability"
+      ],
+      "de": [
+        "Zugaengliche Vapor-Schnellschusstechnologie",
+        "Gute Balance aus Leistung und Haltbarkeit"
+      ],
+      "fr": [
+        "Technologie Vapor de tir rapide accessible",
+        "Bon equilibre entre performance et durabilite"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than elite Vapor models",
+        "Limited to senior and intermediate sizes"
+      ],
+      "de": [
+        "Schwerer als die Elite-Vapor-Modelle",
+        "Nur in Senior und Intermediate erhältlich"
+      ],
+      "fr": [
+        "Plus lourd que les modeles Vapor elite",
+        "Limite aux tailles senior et intermediaire"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick point delivers quick wrist shots at a performance price, ideal for competitive league snipers.",
+        "de": "Der tiefe Kickpoint liefert schnelle Handgelenkschüsse zum Performance-Preis.",
+        "fr": "Le kick bas offre des tirs du poignet rapides a un prix performance."
+      },
+      "defender": {
+        "en": "Responsive enough for crisp breakout passes without the top-tier investment.",
+        "de": "Reaktionsschnell genug für präzise Ausbruchpaesse ohne Top-Investition.",
+        "fr": "Assez reactif pour des passes de sortie precises sans l'investissement premium."
+      },
+      "power-forward": {
+        "en": "Durable enough for board battles while keeping the quick release for scoring chances.",
+        "de": "Haltbar genug für Bandenkampf und gleichzeitig schneller Abzug bei Torchancen.",
+        "fr": "Assez durable pour les batailles le long de la bande tout en gardant le tir rapide."
+      },
+      "grinder": {
+        "en": "A reliable workhorse stick with enough speed for opportunistic shots around the net.",
+        "de": "Ein zuverlässiger Arbeiterschläger mit genug Schnelligkeit für Gelegenheitsschüsse.",
+        "fr": "Un baton de travail fiable avec assez de rapidite pour les tirs opportunistes."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/vapor/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-nexus-tracer",
+    "brand": "Bauer",
+    "model": "Nexus Tracer",
+    "line": "Nexus",
+    "tier": "elite",
+    "tagline": {
+      "en": "Adaptive flex for every shot type",
+      "de": "Adaptiver Flex für jeden Schusstyp",
+      "fr": "Flex adaptatif pour chaque type de tir"
+    },
+    "kickpoint": "variable",
+    "kickpointLabel": "Variable Kick",
+    "sizes": [
+      "youth",
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Variable kick adapts to any shot type",
+        "Versatile for all positions and play styles",
+        "Available in all size categories"
+      ],
+      "de": [
+        "Variabler Kickpoint passt sich jedem Schusstyp an",
+        "Vielseitig für alle Positionen und Spielstile",
+        "In allen Grössen erhältlich"
+      ],
+      "fr": [
+        "Le kick variable s'adapte a tous les types de tirs",
+        "Polyvalent pour toutes les positions",
+        "Disponible dans toutes les tailles"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Jack-of-all-trades may not excel in one area",
+        "High price point"
+      ],
+      "de": [
+        "Alleskoenner ist in keinem Bereich Spitze",
+        "Hoher Preis"
+      ],
+      "fr": [
+        "Le couteau suisse n'excelle dans aucun domaine specifique",
+        "Prix eleve"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Variable kick lets you load quick wrist shots or wind up for slapshots equally well.",
+        "de": "Der variable Kickpoint lässt dich Handgelenkschüsse und Slapshots gleich gut laden.",
+        "fr": "Le kick variable permet de charger les tirs du poignet et les tirs frappes aussi bien."
+      },
+      "defender": {
+        "en": "Adapts from hard point shots to quick breakout passes depending on how you load the shaft.",
+        "de": "Passt sich von harten Schlagschüssen zu schnellen Ausbruchpaessen an.",
+        "fr": "S'adapte des tirs de la pointe aux passes de sortie rapides selon la charge."
+      },
+      "power-forward": {
+        "en": "Whether you're crashing the net or winding up from the slot, the flex adapts to your play.",
+        "de": "Ob du aufs Tor faehrst oder aus dem Slot schiesst — der Flex passt sich an.",
+        "fr": "Que vous foncez au filet ou tiriez de l'enclave, le flex s'adapte a votre jeu."
+      },
+      "grinder": {
+        "en": "All-around performance means you're never caught with the wrong stick for the situation.",
+        "de": "Allround-Leistung bedeutet, dass du nie den falschen Schläger für die Situation hast.",
+        "fr": "La polyvalence signifie que vous n'avez jamais le mauvais baton pour la situation."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/nexus/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-nexus-e50pro",
+    "brand": "Bauer",
+    "model": "Nexus E50 Pro",
+    "line": "Nexus",
+    "tier": "elite",
+    "tagline": {
+      "en": "All-around elite performance",
+      "de": "Allround-Elite-Leistung",
+      "fr": "Performance elite polyvalente"
+    },
+    "kickpoint": "variable",
+    "kickpointLabel": "Variable Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Versatile variable kick for any situation",
+        "Balanced weight and durability"
+      ],
+      "de": [
+        "Vielseitiger variabler Kickpoint für jede Situation",
+        "Ausgewogenes Gewicht und Haltbarkeit"
+      ],
+      "fr": [
+        "Kick variable polyvalent pour chaque situation",
+        "Equilibre entre poids et durabilite"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Not as specialized as dedicated low or mid kick sticks"
+      ],
+      "de": [
+        "Nicht so spezialisiert wie reine Low- oder Mid-Kick-Schläger"
+      ],
+      "fr": [
+        "Moins specialise que les batons dedies low ou mid kick"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Variable kick lets you snap off quick wristers or load up slapshots with the same stick.",
+        "de": "Der variable Kickpoint ermöglicht schnelle Handgelenkschüsse und Slapshots mit demselben Schläger.",
+        "fr": "Le kick variable permet tirs du poignet rapides et tirs frappes avec le meme baton."
+      },
+      "defender": {
+        "en": "Excellent balance makes it easy to switch between booming point shots and quick outlet passes.",
+        "de": "Die hervorragende Balance erleichtert den Wechsel zwischen Schlagschüssen und schnellen Paessen.",
+        "fr": "L'excellent equilibre facilite le passage des tirs de la pointe aux passes rapides."
+      },
+      "power-forward": {
+        "en": "Durable enough for net-front battles while giving you shot versatility from any angle.",
+        "de": "Haltbar genug für Kaempfe vor dem Tor und vielseitig beim Schiessen aus jedem Winkel.",
+        "fr": "Assez durable pour les batailles devant le filet avec une polyvalence de tir."
+      },
+      "grinder": {
+        "en": "Reliable all-around stick that handles board work and opportunistic shots equally well.",
+        "de": "Zuverlässiger Allround-Schläger für Bandenarbeit und Gelegenheitsschüsse.",
+        "fr": "Baton polyvalent fiable pour le travail en bande et les tirs opportunistes."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/nexus/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-nexus-e40",
+    "brand": "Bauer",
+    "model": "Nexus E40",
+    "line": "Nexus",
+    "tier": "performance",
+    "tagline": {
+      "en": "All-around versatility at a great value",
+      "de": "Allround-Vielseitigkeit zum tollen Preis",
+      "fr": "Polyvalence a un excellent prix"
+    },
+    "kickpoint": "variable",
+    "kickpointLabel": "Variable Kick",
+    "sizes": [
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Variable kick versatility at a performance price",
+        "Solid construction for regular play"
+      ],
+      "de": [
+        "Variable-Kick-Vielseitigkeit zum Performance-Preis",
+        "Solide Konstruktion für regelmaessiges Spiel"
+      ],
+      "fr": [
+        "Polyvalence du kick variable a un prix performance",
+        "Construction solide pour un jeu regulier"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than elite Nexus models",
+        "Only available in intermediate and senior"
+      ],
+      "de": [
+        "Schwerer als Elite-Nexus-Modelle",
+        "Nur in Intermediate und Senior erhältlich"
+      ],
+      "fr": [
+        "Plus lourd que les modeles Nexus elite",
+        "Disponible uniquement en intermediaire et senior"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Affordable variable kick gives you wrist shot speed and slapshot power in one stick.",
+        "de": "Erschwinglicher variabler Kickpoint für Handgelenkschuss-Schnelligkeit und Slapshot-Power.",
+        "fr": "Le kick variable abordable offre vitesse au poignet et puissance en tir frappe."
+      },
+      "defender": {
+        "en": "Dependable all-around stick for blue-liners who need versatility without breaking the bank.",
+        "de": "Zuverlässiger Allround-Schläger für Verteidiger, die Vielseitigkeit ohne hohe Kosten brauchen.",
+        "fr": "Baton polyvalent fiable pour les defenseurs qui veulent la polyvalence a bon prix."
+      },
+      "power-forward": {
+        "en": "Tough enough for battles in front of the net with the versatility to shoot from anywhere.",
+        "de": "Robust genug für Kaempfe vor dem Tor und vielseitig genug für Schüsse von überall.",
+        "fr": "Assez robuste pour les batailles devant le filet avec la polyvalence de tirer de partout."
+      },
+      "grinder": {
+        "en": "Durable and versatile — an ideal workhorse for players who do a bit of everything.",
+        "de": "Haltbar und vielseitig — ideal für Spieler, die von allem etwas machen.",
+        "fr": "Durable et polyvalent — ideal pour les joueurs qui font un peu de tout."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/nexus/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-proto-r",
+    "brand": "Bauer",
+    "model": "Proto-R",
+    "line": "Proto",
+    "tier": "innovation",
+    "tagline": {
+      "en": "Revolutionary flex innovation",
+      "de": "Revolutionaere Flex-Innovation",
+      "fr": "Innovation revolutionnaire du flex"
+    },
+    "kickpoint": "variable",
+    "kickpointLabel": "Variable Kick",
+    "sizes": [
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Cutting-edge variable kick technology",
+        "Unique feel unlike any traditional stick",
+        "Excellent shot versatility"
+      ],
+      "de": [
+        "Modernste Variable-Kick-Technologie",
+        "Einzigartiges Gefühl",
+        "Hervorragende Schussvielseitigkeit"
+      ],
+      "fr": [
+        "Technologie de kick variable de pointe",
+        "Sensation unique",
+        "Excellente polyvalence de tir"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Adjustment period for players used to fixed kick points",
+        "Limited size range"
+      ],
+      "de": [
+        "Eingewoehnungszeit für Spieler mit festen Kickpoints",
+        "Begrenzte Grössenauswahl"
+      ],
+      "fr": [
+        "Temps d'adaptation pour les joueurs habitues aux kicks fixes",
+        "Gamme de tailles limitee"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The innovative variable flex adapts to your shooting motion, maximizing velocity on every release type.",
+        "de": "Der innovative variable Flex passt sich deiner Schussbewegung an und maximiert die Geschwindigkeit.",
+        "fr": "Le flex variable innovant s'adapte a votre mouvement de tir pour maximiser la velocite."
+      },
+      "defender": {
+        "en": "Versatile flex handles everything from one-timers at the point to quick cross-ice feeds.",
+        "de": "Vielseitiger Flex für alles, von One-Timern am blauen Punkt bis zu schnellen Querpaessen.",
+        "fr": "Le flex polyvalent gere tout, des one-timers aux passes transversales rapides."
+      },
+      "power-forward": {
+        "en": "Innovative construction gives you power in tight and speed in open ice — best of both worlds.",
+        "de": "Innovative Bauweise gibt dir Power in der Enge und Schnelligkeit im offenen Eis.",
+        "fr": "La construction innovante offre puissance en espace reduit et vitesse en espace ouvert."
+      },
+      "grinder": {
+        "en": "Adapts to whatever the play demands, from chip shots to hard passes along the boards.",
+        "de": "Passt sich an jede Spielsituation an, von Chipschüssen bis zu harten Paessen an der Bande.",
+        "fr": "S'adapte a ce que le jeu exige, des petits tirs aux passes dures le long de la bande."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z",
+    "flexRange": {
+      "intermediate": {
+        "min": 55,
+        "max": 65
+      },
+      "senior": {
+        "min": 70,
+        "max": 87
+      }
+    }
+  },
+  {
+    "id": "bauer-proto2",
+    "brand": "Bauer",
+    "model": "Proto2",
+    "line": "Proto",
+    "tier": "innovation",
+    "tagline": {
+      "en": "Next-generation adaptive shooting",
+      "de": "Naechste Generation adaptives Schiessen",
+      "fr": "Tir adaptatif de nouvelle generation"
+    },
+    "kickpoint": "variable",
+    "kickpointLabel": "Variable Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Refined variable kick from the original Proto",
+        "Improved energy transfer and balance",
+        "Available down to junior size"
+      ],
+      "de": [
+        "Verfeinerter variabler Kick gegenüber dem Original",
+        "Verbesserte Energieübertragung und Balance",
+        "Bis zur Juniorengrösse erhältlich"
+      ],
+      "fr": [
+        "Kick variable affine par rapport a l'original",
+        "Meilleur transfert d'energie et equilibre",
+        "Disponible jusqu'a la taille junior"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Premium price for innovation technology",
+        "Still requires adaptation from fixed-kick sticks"
+      ],
+      "de": [
+        "Premium-Preis für Innovationstechnologie",
+        "Erfordert weiterhin Anpassung von festen Kickpoints"
+      ],
+      "fr": [
+        "Prix premium pour la technologie innovante",
+        "Necessite toujours une adaptation depuis les kicks fixes"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Variable kick point maximizes both wrist shot quickness and slapshot power — the ultimate sniper versatility.",
+        "de": "Variabler Kickpoint maximiert Handgelenkschuss-Schnelligkeit und Slapshot-Power.",
+        "fr": "Le kick variable maximise la rapidite du poignet et la puissance du tir frappe."
+      },
+      "defender": {
+        "en": "Seamlessly switches between booming point shots and precise outlet passes.",
+        "de": "Wechselt nahtlos zwischen donnernden Schlagschüssen und präzisen Befreiungspaessen.",
+        "fr": "Passe facilement des tirs puissants de la pointe aux passes de degagement precises."
+      },
+      "power-forward": {
+        "en": "Adaptive flex gives you power when driving the net and speed when you need a quick release.",
+        "de": "Der adaptive Flex gibt Power beim Torangriff und Schnelligkeit beim schnellen Abzug.",
+        "fr": "Le flex adaptatif donne de la puissance en attaque et de la rapidite au tir."
+      },
+      "grinder": {
+        "en": "Reliable in all situations — battles, deflections, and quick passes from the corners.",
+        "de": "Zuverlässig in allen Situationen — Kaempfe, Umlenkungen und schnelle Paesse aus den Ecken.",
+        "fr": "Fiable dans toutes les situations — batailles, deviations et passes rapides des coins."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-pulse",
+    "brand": "Bauer",
+    "model": "Pulse",
+    "line": "Pulse",
+    "tier": "innovation",
+    "tagline": {
+      "en": "Power-driven mid-kick innovation",
+      "de": "Kraftgetriebene Mid-Kick-Innovation",
+      "fr": "Innovation mid-kick axee sur la puissance"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Innovative mid-kick maximizes slapshot power",
+        "Excellent energy storage and release",
+        "Great for physical play styles"
+      ],
+      "de": [
+        "Innovativer Mid-Kick maximiert Slapshot-Power",
+        "Hervorragende Energiespeicherung und -freisetzung",
+        "Ideal für physische Spielweisen"
+      ],
+      "fr": [
+        "Mid-kick innovant maximisant la puissance du tir frappe",
+        "Excellent stockage et liberation d'energie",
+        "Ideal pour les styles de jeu physiques"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Slower release than low-kick sticks",
+        "Less suited for pure quick-release snipers"
+      ],
+      "de": [
+        "Langsamerer Abzug als Low-Kick-Schläger",
+        "Weniger geeignet für reine Schnellschuss-Scharfschützen"
+      ],
+      "fr": [
+        "Liberation plus lente que les batons low-kick",
+        "Moins adapte aux snipers pur tir rapide"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick stores more energy for devastating one-timers and shots from the high slot.",
+        "de": "Der Mid-Kick speichert mehr Energie für verheerende One-Timer und Schüsse aus dem hohen Slot.",
+        "fr": "Le mid-kick stocke plus d'energie pour des one-timers devastateurs depuis l'enclave haute."
+      },
+      "defender": {
+        "en": "Maximum power on point shots makes this an ideal weapon from the blue line.",
+        "de": "Maximale Power bei Schlagschüssen macht diesen Schläger zur idealen Waffe von der blauen Linie.",
+        "fr": "La puissance maximale sur les tirs de la pointe en fait une arme ideale depuis la ligne bleue."
+      },
+      "power-forward": {
+        "en": "Built for power players who drive hard to the net and need raw shooting force.",
+        "de": "Gebaut für Power-Spieler, die hart aufs Tor fahren und rohe Schusskraft brauchen.",
+        "fr": "Concu pour les joueurs de puissance qui foncent au filet avec force brute."
+      },
+      "grinder": {
+        "en": "Durable construction handles physical play while the mid kick adds power to your shots.",
+        "de": "Robuste Bauweise haelt physischem Spiel stand, waehrend der Mid-Kick Power zu deinen Schüssen bringt.",
+        "fr": "Construction durable pour le jeu physique tandis que le mid-kick ajoute de la puissance."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-vapor-hyperlite2",
+    "brand": "Bauer",
+    "model": "Vapor Hyperlite 2",
+    "line": "Vapor",
+    "tier": "elite",
+    "tagline": {
+      "en": "Ultra-lightweight speed machine",
+      "de": "Ultraleichter Speed-Schläger",
+      "fr": "Machine de vitesse ultra-legere"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Extremely lightweight",
+        "Fastest release on the market",
+        "Excellent stickhandling"
+      ],
+      "de": [
+        "Extrem leicht",
+        "Schnellster Abzug auf dem Markt",
+        "Exzellentes Puckgefühl"
+      ],
+      "fr": [
+        "Extremement leger",
+        "Tir le plus rapide du marche",
+        "Excellent maniement"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Less forgiving on slapshots",
+        "Premium price"
+      ],
+      "de": [
+        "Weniger gut für Slapshots",
+        "Hoher Preis"
+      ],
+      "fr": [
+        "Moins adapte aux tirs frappes",
+        "Prix eleve"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick fires wrist shots the instant you load up — perfect for quick releases and one-timers in tight spaces.",
+        "de": "Niedrige Flex feuert Handgelenkschüsse blitzschnell ab — ideal für schnelle Abzüge und One-Timer.",
+        "fr": "Le kick bas libere les tirs du poignet instantanement — ideal pour les tirs rapides et les one-timers."
+      },
+      "defender": {
+        "en": "Feather-light weight reduces arm fatigue on long shifts with clean, precise outlet passes.",
+        "de": "Federleichtes Gewicht reduziert die Armermüdung bei langen Wechseln mit präzisen Paessen.",
+        "fr": "Le poids plume reduit la fatigue avec des passes de degagement precises a chaque fois."
+      },
+      "power-forward": {
+        "en": "Responsive blade delivers great puck feel when battling along the boards or driving to the net.",
+        "de": "Reaktionsfreudiges Blatt mit gutem Puckgefühl bei Zweikampf und Torangriff.",
+        "fr": "Palette reactive pour un bon feeling en bataille et en attaque vers le filet."
+      },
+      "grinder": {
+        "en": "Lightweight and easy to handle in traffic with quick redirects and tip-ins around the crease.",
+        "de": "Leicht und handlich im Gedraenge mit schnellen Umlenkungen vor dem Tor.",
+        "fr": "Leger et maniable dans la cohue avec des deviations rapides devant le filet."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/vapor/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-supreme-m5pro",
+    "brand": "Bauer",
+    "model": "Supreme M5 Pro",
+    "line": "Supreme",
+    "tier": "elite",
+    "tagline": {
+      "en": "All-round power and precision",
+      "de": "Universell — Kraft und Präzision",
+      "fr": "Puissance et precision polyvalentes"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Great for slapshots and point shots",
+        "Durable construction",
+        "Versatile for all shot types"
+      ],
+      "de": [
+        "Klasse für Slapshots und Schlagschüsse",
+        "Robuste Bauweise",
+        "Vielseitig für alle Schusstypen"
+      ],
+      "fr": [
+        "Excellent pour les tirs frappes",
+        "Construction durable",
+        "Polyvalent pour tous les tirs"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Slower wrist shot release than Vapor",
+        "Heavier feel overall"
+      ],
+      "de": [
+        "Langsamerer Handgelenkschuss als Vapor",
+        "Insgesamt schwereres Gefühl"
+      ],
+      "fr": [
+        "Tir du poignet plus lent que le Vapor",
+        "Sensation plus lourde"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick stores tremendous energy for powerful one-timers and wrist shots from the slot.",
+        "de": "Der Mid-Kick speichert enorme Energie für kraftvolle One-Timer und Schüsse aus dem Slot.",
+        "fr": "Le mid-kick stocke une energie enorme pour des one-timers puissants depuis l'enclave."
+      },
+      "defender": {
+        "en": "Built for booming point shots and physical play — the quintessential defenseman's stick.",
+        "de": "Gebaut für donnernde Schlagschüsse und physisches Spiel — der Verteidiger-Schläger schlechthin.",
+        "fr": "Concu pour les tirs puissants de la pointe — le baton du defenseur par excellence."
+      },
+      "power-forward": {
+        "en": "Durable mid-kick construction handles net-front battles while maximizing shot power.",
+        "de": "Robuste Mid-Kick-Bauweise haelt Kaempfen vor dem Tor stand und maximiert die Schusskraft.",
+        "fr": "Construction mid-kick durable pour les batailles devant le filet avec puissance maximale."
+      },
+      "grinder": {
+        "en": "Tough and reliable for board work with enough power for opportunistic shots.",
+        "de": "Robust und zuverlässig für Bandenarbeit mit genug Power für Gelegenheitsschüsse.",
+        "fr": "Robuste et fiable pour le travail en bande avec assez de puissance pour les tirs opportunistes."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/supreme/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-ag5nt",
+    "brand": "Bauer",
+    "model": "AG5NT",
+    "line": "AG5NT",
+    "tier": "elite",
+    "tagline": {
+      "en": "Engineered for dominant two-way play",
+      "de": "Entwickelt für dominantes Zweiwege-Spiel",
+      "fr": "Concu pour un jeu bidirectionnel dominant"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92",
+      "P88",
+      "P77"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Exceptional power on slapshots and point shots",
+        "Engineered for physical, two-way hockey",
+        "Premium build quality"
+      ],
+      "de": [
+        "Aussergewöhnliche Power bei Slapshots und Schlagschüssen",
+        "Konstruiert für physisches Zweiwege-Hockey",
+        "Premium-Bauqualitaet"
+      ],
+      "fr": [
+        "Puissance exceptionnelle sur tirs frappes",
+        "Concu pour le hockey physique bidirectionnel",
+        "Qualite de fabrication premium"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Not ideal for pure quick-release snipers",
+        "Top-tier price"
+      ],
+      "de": [
+        "Nicht ideal für reine Schnellschuss-Scharfschützen",
+        "Höchster Preis"
+      ],
+      "fr": [
+        "Pas ideal pour les snipers pur tir rapide",
+        "Prix tres eleve"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick delivers devastating power on one-timers and shots from the circles.",
+        "de": "Der Mid-Kick liefert verheerende Power bei One-Timern und Schüssen aus den Bullykreisen.",
+        "fr": "Le mid-kick offre une puissance devastatrice sur les one-timers et les tirs des cercles."
+      },
+      "defender": {
+        "en": "Purpose-built for defensemen who want maximum power from the point and durability for physical play.",
+        "de": "Speziell für Verteidiger, die maximale Power von der blauen Linie und Haltbarkeit für physisches Spiel wollen.",
+        "fr": "Concu pour les defenseurs voulant puissance maximale de la pointe et durabilite pour le jeu physique."
+      },
+      "power-forward": {
+        "en": "Built tough for net-front battles with the mid-kick power to finish from in close.",
+        "de": "Robust gebaut für Kaempfe vor dem Tor mit Mid-Kick-Power zum Abschluss aus der Nähe.",
+        "fr": "Construit robuste pour les batailles devant le filet avec la puissance pour finir de pres."
+      },
+      "grinder": {
+        "en": "Extremely durable for grinding along the boards with enough shooting power for dirty goals.",
+        "de": "Extrem haltbar für harte Bandenarbeit mit genug Schusskraft für Abstauber-Tore.",
+        "fr": "Extremement durable pour le jeu en bande avec assez de puissance pour les buts en force."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/en-US/hockey/hockey-sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-vizion-26",
+    "brand": "CCM",
+    "model": "Vizion 26",
+    "line": "Vizion",
+    "tier": "elite",
+    "tagline": {
+      "en": "CCM's flagship all-around performer",
+      "de": "CCMs Flaggschiff-Allrounder",
+      "fr": "Le vaisseau amiral polyvalent de CCM"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "youth",
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Top-of-the-line all-around performance",
+        "Exceptional energy transfer on all shot types",
+        "Available in all size categories"
+      ],
+      "de": [
+        "Spitzenleistung in allen Bereichen",
+        "Aussergewöhnliche Energieübertragung bei allen Schüssen",
+        "In allen Grössen erhältlich"
+      ],
+      "fr": [
+        "Performance polyvalente haut de gamme",
+        "Transfert d'energie exceptionnel sur tous les tirs",
+        "Disponible dans toutes les tailles"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Premium flagship price",
+        "Mid kick may feel slower for pure wrist-shot snipers"
+      ],
+      "de": [
+        "Premium-Flaggschiff-Preis",
+        "Mid-Kick kann sich für reine Handgelenkschützen langsam anfuehlen"
+      ],
+      "fr": [
+        "Prix premium du vaisseau amiral",
+        "Le mid-kick peut sembler lent pour les tireurs du poignet purs"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick stores maximum energy for powerful one-timers and shots from the slot and circles.",
+        "de": "Der Mid-Kick speichert maximale Energie für kraftvolle One-Timer aus dem Slot und den Kreisen.",
+        "fr": "Le mid-kick stocke l'energie maximale pour des one-timers puissants depuis l'enclave."
+      },
+      "defender": {
+        "en": "Flagship construction delivers heavy point shots and precise breakout passes with confidence.",
+        "de": "Die Flaggschiff-Bauweise liefert schwere Schlagschüsse und präzise Ausbruchpaesse.",
+        "fr": "La construction phare offre des tirs de pointe lourds et des passes de sortie precises."
+      },
+      "power-forward": {
+        "en": "All-around excellence gives you power near the net and versatility from any position on the ice.",
+        "de": "Allround-Exzellenz gibt dir Power am Tor und Vielseitigkeit aus jeder Position.",
+        "fr": "L'excellence polyvalente offre puissance pres du filet et polyvalence depuis toute position."
+      },
+      "grinder": {
+        "en": "Premium durability handles physical play while the balanced design suits any situation.",
+        "de": "Premium-Haltbarkeit für physisches Spiel mit ausgeglichenem Design für jede Situation.",
+        "fr": "Durabilite premium pour le jeu physique avec un design equilibre pour toute situation."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z",
+    "flexRange": {
+      "junior": {
+        "min": 30,
+        "max": 50
+      },
+      "intermediate": {
+        "min": 55,
+        "max": 65
+      },
+      "senior": {
+        "min": 70,
+        "max": 85
+      }
+    }
+  },
+  {
+    "id": "ccm-vizion-ultra",
+    "brand": "CCM",
+    "model": "Vizion Ultra",
+    "line": "Vizion",
+    "tier": "elite",
+    "tagline": {
+      "en": "Low kick speed in CCM's newest platform",
+      "de": "Low-Kick-Geschwindigkeit in CCMs neuester Plattform",
+      "fr": "Vitesse low kick dans la plus récente plateforme de CCM"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Ultra-fast release with CCM's newest low-kick technology",
+        "Lighter and more responsive than JetSpeed line",
+        "Part of CCM's new Vizion platform"
+      ],
+      "de": [
+        "Ultraschneller Abschuss mit CCMs neuester Low-Kick-Technologie",
+        "Leichter und reaktionsfreudiger als die JetSpeed-Serie",
+        "Teil von CCMs neuer Vizion-Plattform"
+      ],
+      "fr": [
+        "Libération ultra-rapide avec la technologie low-kick la plus récente de CCM",
+        "Plus léger et réactif que la gamme JetSpeed",
+        "Partie de la nouvelle plateforme Vizion de CCM"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Premium price — top-tier Vizion model",
+        "Low kick less suited for heavy slapshots"
+      ],
+      "de": [
+        "Premium-Preis — Top-Vizion-Modell",
+        "Low-Kick weniger geeignet für schwere Schlagschüsse"
+      ],
+      "fr": [
+        "Prix premium — modèle Vizion haut de gamme",
+        "Le low-kick convient moins aux lourds tirs frappés"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The Vizion Ultra's low kick delivers the fastest release in the new CCM platform. Built to snipe from anywhere.",
+        "de": "Der Low-Kick des Vizion Ultra liefert den schnellsten Abschuss der neuen CCM-Plattform. Gebaut zum Snipen aus jeder Position.",
+        "fr": "Le low kick du Vizion Ultra offre la libération la plus rapide de la nouvelle plateforme CCM. Conçu pour marquer de partout."
+      },
+      "defender": {
+        "en": "Quick outlet passes and fast point shots help you move the puck before the forecheck arrives.",
+        "de": "Schnelle Pässe und rasche Schüsse von der blauen Linie helfen, den Puck vor dem Forecheck zu bewegen.",
+        "fr": "Passes de sortie rapides et tirs de pointe véloces pour déplacer la rondelle avant le forechecking."
+      },
+      "power-forward": {
+        "en": "Lightning-fast shots in tight spaces around the net. Capitalize on every rebound instantly.",
+        "de": "Blitzschnelle Schüsse in engen Räumen ums Tor. Nutze jeden Abpraller sofort aus.",
+        "fr": "Tirs ultra-rapides dans les espaces restreints autour du filet. Capitalisez sur chaque rebond."
+      },
+      "grinder": {
+        "en": "Quick hands and fast blade response for tips, deflections, and greasy goals around the crease.",
+        "de": "Schnelle Hände und reaktionsfreudige Klinge für Abfälscher und schmutzige Tore im Torraum.",
+        "fr": "Mains rapides et réponse de palette rapide pour les déviations et les buts devant le filet."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z",
+    "flexRange": {
+      "senior": {
+        "min": 70,
+        "max": 85
+      }
+    }
+  },
+  {
+    "id": "ccm-jetspeed-ft8-pro",
+    "brand": "CCM",
+    "model": "JetSpeed FT8 Pro",
+    "line": "JetSpeed",
+    "tier": "elite",
+    "tagline": {
+      "en": "Pure speed for elite scorers",
+      "de": "Reine Geschwindigkeit für Elite-Torschützen",
+      "fr": "Vitesse pure pour les marqueurs d'elite"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Lightning-quick release for snipers",
+        "Lightweight and responsive",
+        "Exceptional puck feel"
+      ],
+      "de": [
+        "Blitzschneller Abzug für Scharfschützen",
+        "Leicht und reaktionsschnell",
+        "Aussergewöhnliches Puckgefühl"
+      ],
+      "fr": [
+        "Liberation ultra-rapide pour les snipers",
+        "Leger et reactif",
+        "Sensation de rondelle exceptionnelle"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Less powerful on slapshots",
+        "Higher price point"
+      ],
+      "de": [
+        "Weniger kraftvoll bei Slapshots",
+        "Höherer Preis"
+      ],
+      "fr": [
+        "Moins puissant en tir frappe",
+        "Prix plus eleve"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick point is engineered for the fastest possible release — get shots off before goalies can react.",
+        "de": "Der tiefe Kickpoint ist für den schnellstmöglichen Abzug konstruiert.",
+        "fr": "Le kick bas est concu pour le tir le plus rapide possible — tirez avant que les gardiens reagissent."
+      },
+      "defender": {
+        "en": "Quick release helps you fire off shots from the point before opposing forwards close the gap.",
+        "de": "Der schnelle Abzug hilft beim Schiessen von der blauen Linie, bevor Stuermer den Weg versperren.",
+        "fr": "Le tir rapide permet de tirer de la pointe avant que les attaquants ferment l'espace."
+      },
+      "power-forward": {
+        "en": "Fast release capitalizes on rebounds and loose pucks near the crease.",
+        "de": "Schneller Abzug nutzt Abpraller und lose Pucks vor dem Tor.",
+        "fr": "Le tir rapide profite des retours et rondelles libres pres de l'enclave."
+      },
+      "grinder": {
+        "en": "Light enough for quick plays in traffic and responsive enough for deflections.",
+        "de": "Leicht genug für schnelle Spielzuege im Gedraenge und reaktionsschnell für Umlenkungen.",
+        "fr": "Assez leger pour les jeux rapides en trafic et reactif pour les deviations."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/jetspeed/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-jetspeed-ft8",
+    "brand": "CCM",
+    "model": "JetSpeed FT8",
+    "line": "JetSpeed",
+    "tier": "performance",
+    "tagline": {
+      "en": "Quick-release performance for competitive players",
+      "de": "Schnellschuss-Performance für Wettkampfspieler",
+      "fr": "Performance de tir rapide pour joueurs competitifs"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "JetSpeed quick-release at a performance price",
+        "Good balance of speed and durability"
+      ],
+      "de": [
+        "JetSpeed-Schnellschuss zum Performance-Preis",
+        "Gute Balance aus Schnelligkeit und Haltbarkeit"
+      ],
+      "fr": [
+        "Tir rapide JetSpeed a un prix performance",
+        "Bon equilibre entre vitesse et durabilite"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than the FT8 Pro",
+        "Less refined blade feel"
+      ],
+      "de": [
+        "Schwerer als der FT8 Pro",
+        "Weniger feines Blattgefühl"
+      ],
+      "fr": [
+        "Plus lourd que le FT8 Pro",
+        "Sensation de palette moins raffinee"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick delivers quick wrist and snap shots at a price that competitive league players can justify.",
+        "de": "Tiefer Kickpoint für schnelle Handgelenk- und Schnappschüsse zu einem angemessenen Preis.",
+        "fr": "Le kick bas offre des tirs rapides a un prix justifiable pour les joueurs de ligue."
+      },
+      "defender": {
+        "en": "Quick enough for fast outlet passes and affordable enough to replace after hard use.",
+        "de": "Schnell genug für schnelle Befreiungspaesse und erschwinglich genug zum Ersetzen.",
+        "fr": "Assez rapide pour des passes de sortie et assez abordable pour etre remplace."
+      },
+      "power-forward": {
+        "en": "Durable enough for physical play with the quick release to capitalize on scoring chances.",
+        "de": "Haltbar genug für physisches Spiel mit schnellem Abzug bei Torchancen.",
+        "fr": "Assez durable pour le jeu physique avec un tir rapide pour les occasions de marquer."
+      },
+      "grinder": {
+        "en": "A solid workhorse that handles physical play and still lets you get shots away quickly.",
+        "de": "Ein solider Arbeiterschläger für physisches Spiel mit schnellen Schüssen.",
+        "fr": "Un baton de travail solide pour le jeu physique avec des tirs rapides."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/jetspeed/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-jetspeed-ft880",
+    "brand": "CCM",
+    "model": "JetSpeed FT880",
+    "line": "JetSpeed",
+    "tier": "entry",
+    "tagline": {
+      "en": "JetSpeed technology for budget-conscious players",
+      "de": "JetSpeed-Technologie für preisbewusste Spieler",
+      "fr": "Technologie JetSpeed pour les joueurs soucieux du budget"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Affordable entry to JetSpeed low-kick technology",
+        "Good value for recreational play"
+      ],
+      "de": [
+        "Guenstiger Einstieg in die JetSpeed-Low-Kick-Technologie",
+        "Gutes Preis-Leistungs-Verhaeltnis für Freizeitspiel"
+      ],
+      "fr": [
+        "Entree abordable dans la technologie JetSpeed low-kick",
+        "Bon rapport qualite-prix pour le jeu recreatif"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Senior size only",
+        "Noticeably heavier than higher-tier models"
+      ],
+      "de": [
+        "Nur in Seniorgrösse",
+        "Merklich schwerer als höhere Modelle"
+      ],
+      "fr": [
+        "Taille senior uniquement",
+        "Nettement plus lourd que les modeles superieurs"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick still delivers respectable quick-release shots at a beginner-friendly price.",
+        "de": "Der tiefe Kickpoint liefert noch anstaendige Schnellschüsse zum Einsteiger-Preis.",
+        "fr": "Le kick bas offre encore des tirs rapides respectables a un prix debutant."
+      },
+      "defender": {
+        "en": "An affordable option for recreational defensemen learning to move the puck quickly.",
+        "de": "Eine erschwingliche Option für Freizeit-Verteidiger, die lernen, den Puck schnell zu bewegen.",
+        "fr": "Une option abordable pour les defenseurs recreatifs apprenant a deplacer la rondelle rapidement."
+      },
+      "power-forward": {
+        "en": "Budget-friendly stick that can handle some physical play while offering a quick release.",
+        "de": "Budgetfreundlicher Schläger für etwas physisches Spiel mit schnellem Abzug.",
+        "fr": "Baton economique qui supporte le jeu physique avec un tir rapide."
+      },
+      "grinder": {
+        "en": "Great starter stick for grinders who don't want to invest heavily while developing their game.",
+        "de": "Toller Einstiegsschläger für Grinder, die ihr Spiel noch entwickeln.",
+        "fr": "Excellent baton de depart pour les grinders qui developpent encore leur jeu."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/jetspeed/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-jetspeed-ft860",
+    "brand": "CCM",
+    "model": "JetSpeed FT860",
+    "line": "JetSpeed",
+    "tier": "entry",
+    "tagline": {
+      "en": "Accessible quick release for all ages",
+      "de": "Zugaenglicher Schnellschuss für alle Altersgruppen",
+      "fr": "Tir rapide accessible pour tous les ages"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Entry-level JetSpeed with low-kick benefits",
+        "Available in junior through senior sizes",
+        "Great value for developing players"
+      ],
+      "de": [
+        "Einstiegs-JetSpeed mit Low-Kick-Vorteilen",
+        "Von Junior bis Senior erhältlich",
+        "Tolles Preis-Leistungs-Verhaeltnis für Nachwuchsspieler"
+      ],
+      "fr": [
+        "JetSpeed d'entree avec les avantages du low-kick",
+        "Disponible du junior au senior",
+        "Excellent rapport qualite-prix pour les joueurs en developpement"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Basic construction compared to higher tiers",
+        "Less responsive blade feel"
+      ],
+      "de": [
+        "Einfachere Bauweise als höhere Modelle",
+        "Weniger reaktionsschnelles Blattgefühl"
+      ],
+      "fr": [
+        "Construction basique comparee aux modeles superieurs",
+        "Sensation de palette moins reactive"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick gives developing snipers the quick release they need at a price that makes sense.",
+        "de": "Der tiefe Kickpoint gibt aufstrebenden Scharfschützen den schnellen Abzug zu einem sinnvollen Preis.",
+        "fr": "Le kick bas donne aux snipers en developpement le tir rapide a un prix sense."
+      },
+      "defender": {
+        "en": "An affordable starter for young defensemen learning the fundamentals of puck movement.",
+        "de": "Ein erschwinglicher Einstieg für junge Verteidiger, die Puckbewegung lernen.",
+        "fr": "Un debut abordable pour les jeunes defenseurs apprenant les fondamentaux."
+      },
+      "power-forward": {
+        "en": "Solid entry-level stick for physical players developing their shooting technique.",
+        "de": "Solider Einstiegsschläger für physische Spieler, die ihre Schusstechnik entwickeln.",
+        "fr": "Baton d'entree solide pour les joueurs physiques developpant leur technique de tir."
+      },
+      "grinder": {
+        "en": "Durable enough for developing grinders without a big investment.",
+        "de": "Haltbar genug für angehende Grinder ohne grosse Investition.",
+        "fr": "Assez durable pour les grinders en devenir sans gros investissement."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/jetspeed/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-ribcor-trigger10-pro",
+    "brand": "CCM",
+    "model": "Ribcor Trigger 10 Pro",
+    "line": "Ribcor",
+    "tier": "elite",
+    "tagline": {
+      "en": "The ultimate hybrid release",
+      "de": "Der ultimative Hybrid-Abzug",
+      "fr": "La liberation hybride ultime"
+    },
+    "kickpoint": "mid-low",
+    "kickpointLabel": "Mid-Low Kick",
+    "sizes": [
+      "youth",
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Mid-low kick blends quick release with shot power",
+        "Excellent for both wrist shots and slapshots",
+        "Available in all size categories"
+      ],
+      "de": [
+        "Mid-Low-Kick verbindet schnellen Abzug mit Schusskraft",
+        "Hervorragend für Handgelenk- und Slapshots",
+        "In allen Grössen erhältlich"
+      ],
+      "fr": [
+        "Le mid-low kick allie tir rapide et puissance",
+        "Excellent pour tirs du poignet et tirs frappes",
+        "Disponible dans toutes les tailles"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Not as fast as pure low-kick sticks",
+        "Premium pricing"
+      ],
+      "de": [
+        "Nicht so schnell wie reine Low-Kick-Schläger",
+        "Premium-Preis"
+      ],
+      "fr": [
+        "Pas aussi rapide que les batons low-kick purs",
+        "Prix premium"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid-low kick gives you wrist shot quickness with extra pop — a hybrid that rewards skilled shooters.",
+        "de": "Der Mid-Low-Kick gibt Handgelenkschuss-Schnelligkeit mit Extra-Power — ein Hybrid für gekonnte Schützen.",
+        "fr": "Le mid-low kick offre rapidite du poignet avec puissance supplementaire — un hybride pour tireurs habiles."
+      },
+      "defender": {
+        "en": "Balanced flex handles point shots and quick outlets equally well from the blue line.",
+        "de": "Ausgewogener Flex für Schlagschüsse und schnelle Paesse von der blauen Linie.",
+        "fr": "Le flex equilibre gere les tirs de la pointe et les passes rapides depuis la ligne bleue."
+      },
+      "power-forward": {
+        "en": "The hybrid kick gives you power in front of the net while keeping the release fast enough for tips.",
+        "de": "Der Hybrid-Kick gibt Power vor dem Tor und haelt den Abzug schnell genug für Tip-Ins.",
+        "fr": "Le kick hybride donne de la puissance devant le filet tout en gardant le tir rapide pour les deviations."
+      },
+      "grinder": {
+        "en": "Versatile mid-low kick handles any situation from board battles to quick shots in traffic.",
+        "de": "Der vielseitige Mid-Low-Kick für jede Situation, von Bandenkampf bis Schnellschüsse.",
+        "fr": "Le mid-low kick polyvalent gere toute situation, des batailles aux tirs rapides en trafic."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/ribcor/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-ribcor-9k",
+    "brand": "CCM",
+    "model": "Ribcor 9K",
+    "line": "Ribcor",
+    "tier": "performance",
+    "tagline": {
+      "en": "Hybrid release for young competitors",
+      "de": "Hybrid-Abzug für junge Wettkampfspieler",
+      "fr": "Liberation hybride pour jeunes competiteurs"
+    },
+    "kickpoint": "mid-low",
+    "kickpointLabel": "Mid-Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Ribcor hybrid kick at a performance price",
+        "Sized for developing players"
+      ],
+      "de": [
+        "Ribcor-Hybrid-Kick zum Performance-Preis",
+        "Für Nachwuchsspieler dimensioniert"
+      ],
+      "fr": [
+        "Kick hybride Ribcor a un prix performance",
+        "Dimensionne pour les joueurs en developpement"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Only available in junior and intermediate",
+        "Less refined feel than the Trigger 10 Pro"
+      ],
+      "de": [
+        "Nur in Junior und Intermediate erhältlich",
+        "Weniger feines Gefühl als der Trigger 10 Pro"
+      ],
+      "fr": [
+        "Disponible uniquement en junior et intermediaire",
+        "Sensation moins raffinee que le Trigger 10 Pro"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid-low kick helps developing snipers learn to load and release the shaft effectively.",
+        "de": "Der Mid-Low-Kick hilft jungen Scharfschützen, das Laden und Abschiessen effektiv zu lernen.",
+        "fr": "Le mid-low kick aide les jeunes snipers a apprendre le chargement et la liberation du tir."
+      },
+      "defender": {
+        "en": "Balanced flex teaches young defensemen proper shooting and passing technique.",
+        "de": "Ausgewogener Flex lehrt junge Verteidiger die richtige Schuss- und Passtechnik.",
+        "fr": "Le flex equilibre enseigne aux jeunes defenseurs la bonne technique de tir et de passe."
+      },
+      "power-forward": {
+        "en": "Durable mid-low kick for young power forwards learning physical play with shot versatility.",
+        "de": "Haltbarer Mid-Low-Kick für junge Power-Forwards, die physisches Spiel lernen.",
+        "fr": "Mid-low kick durable pour les jeunes power-forwards apprenant le jeu physique."
+      },
+      "grinder": {
+        "en": "A versatile developing player's stick at the right size and price point.",
+        "de": "Ein vielseitiger Schläger für Nachwuchsspieler in der richtigen Grösse und zum richtigen Preis.",
+        "fr": "Un baton polyvalent pour joueurs en developpement a la bonne taille et au bon prix."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/ribcor/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-ribcor-9",
+    "brand": "CCM",
+    "model": "Ribcor 9",
+    "line": "Ribcor",
+    "tier": "performance",
+    "tagline": {
+      "en": "Versatile hybrid performance for all",
+      "de": "Vielseitige Hybrid-Performance für alle",
+      "fr": "Performance hybride polyvalente pour tous"
+    },
+    "kickpoint": "mid-low",
+    "kickpointLabel": "Mid-Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Ribcor mid-low kick at an accessible price",
+        "Good versatility for all shot types",
+        "Wide size range"
+      ],
+      "de": [
+        "Ribcor-Mid-Low-Kick zum zugaenglichen Preis",
+        "Gute Vielseitigkeit für alle Schusstypen",
+        "Breite Grössenauswahl"
+      ],
+      "fr": [
+        "Mid-low kick Ribcor a un prix accessible",
+        "Bonne polyvalence pour tous les tirs",
+        "Large gamme de tailles"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than the Trigger 10 Pro",
+        "Basic blade construction"
+      ],
+      "de": [
+        "Schwerer als der Trigger 10 Pro",
+        "Einfache Blattkonstruktion"
+      ],
+      "fr": [
+        "Plus lourd que le Trigger 10 Pro",
+        "Construction de palette basique"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid-low kick offers a blend of quick release and power at a price competitive players appreciate.",
+        "de": "Der Mid-Low-Kick bietet schnellen Abzug und Power zu einem fairen Preis.",
+        "fr": "Le mid-low kick offre un melange de tir rapide et de puissance a un bon prix."
+      },
+      "defender": {
+        "en": "Versatile kick handles point shots and breakout passes at a reasonable investment.",
+        "de": "Vielseitiger Kick für Schlagschüsse und Befreiungspaesse zu angemessenem Preis.",
+        "fr": "Kick polyvalent pour tirs de la pointe et passes de sortie a un investissement raisonnable."
+      },
+      "power-forward": {
+        "en": "Good balance of durability and shot versatility for physical forwards.",
+        "de": "Gute Balance aus Haltbarkeit und Schussvielseitigkeit für physische Stuermer.",
+        "fr": "Bon equilibre entre durabilite et polyvalence de tir pour les attaquants physiques."
+      },
+      "grinder": {
+        "en": "Reliable stick for players who need versatility and durability without a premium price.",
+        "de": "Zuverlässiger Schläger für Spieler, die Vielseitigkeit und Haltbarkeit ohne Premium-Preis brauchen.",
+        "fr": "Baton fiable pour les joueurs qui veulent polyvalence et durabilite sans prix premium."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/ribcor/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-ribcor-96",
+    "brand": "CCM",
+    "model": "Ribcor 96",
+    "line": "Ribcor",
+    "tier": "entry",
+    "tagline": {
+      "en": "Entry-level hybrid kick technology",
+      "de": "Einstiegs-Hybrid-Kick-Technologie",
+      "fr": "Technologie de kick hybride d'entree de gamme"
+    },
+    "kickpoint": "mid-low",
+    "kickpointLabel": "Mid-Low Kick",
+    "sizes": [
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Affordable entry to Ribcor technology",
+        "Forgiving mid-low kick for beginners"
+      ],
+      "de": [
+        "Guenstiger Einstieg in die Ribcor-Technologie",
+        "Verzeihender Mid-Low-Kick für Anfänger"
+      ],
+      "fr": [
+        "Entree abordable dans la technologie Ribcor",
+        "Mid-low kick indulgent pour debutants"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Basic construction and materials",
+        "Limited to intermediate and senior sizes"
+      ],
+      "de": [
+        "Einfache Bauweise und Materialien",
+        "Auf Intermediate und Senior beschraenkt"
+      ],
+      "fr": [
+        "Construction et materiaux basiques",
+        "Limite aux tailles intermediaire et senior"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid-low kick helps beginners develop their shot with a forgiving flex profile.",
+        "de": "Der Mid-Low-Kick hilft Anfängern, ihren Schuss mit einem verzeihenden Flex zu entwickeln.",
+        "fr": "Le mid-low kick aide les debutants a developper leur tir avec un flex indulgent."
+      },
+      "defender": {
+        "en": "Affordable stick for recreational defensemen learning the basics of the position.",
+        "de": "Erschwinglicher Schläger für Freizeit-Verteidiger, die die Grundlagen lernen.",
+        "fr": "Baton abordable pour les defenseurs recreatifs apprenant les bases du poste."
+      },
+      "power-forward": {
+        "en": "Durable entry-level option for physical players on a budget.",
+        "de": "Haltbare Einstiegsoption für physische Spieler mit kleinem Budget.",
+        "fr": "Option d'entree durable pour les joueurs physiques avec un petit budget."
+      },
+      "grinder": {
+        "en": "Budget-friendly all-around stick for players developing their game.",
+        "de": "Budgetfreundlicher Allround-Schläger für Spieler in der Entwicklung.",
+        "fr": "Baton polyvalent economique pour les joueurs en developpement."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/ribcor/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-xf-ghost",
+    "brand": "CCM",
+    "model": "XF Ghost",
+    "line": "Tacks",
+    "tier": "elite",
+    "tagline": {
+      "en": "Elite mid-kick power for young players",
+      "de": "Elite-Mid-Kick-Power für junge Spieler",
+      "fr": "Puissance mid-kick d'elite pour jeunes joueurs"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "youth",
+      "junior",
+      "intermediate"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Elite-level mid-kick power in smaller sizes",
+        "Excellent energy transfer for slapshots",
+        "Available down to youth size"
+      ],
+      "de": [
+        "Elite-Mid-Kick-Power in kleineren Grössen",
+        "Hervorragende Energieübertragung für Slapshots",
+        "Bis zur Jugendgrösse erhältlich"
+      ],
+      "fr": [
+        "Puissance mid-kick d'elite en petites tailles",
+        "Excellent transfert d'energie pour tirs frappes",
+        "Disponible jusqu'a la taille jeune"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No senior size available",
+        "Slower release for pure wrist-shot players"
+      ],
+      "de": [
+        "Keine Seniorgrösse erhältlich",
+        "Langsamerer Abzug für reine Handgelenkschützen"
+      ],
+      "fr": [
+        "Pas de taille senior disponible",
+        "Liberation plus lente pour les tireurs du poignet purs"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick stores extra energy for powerful shots from the circles and slot.",
+        "de": "Der Mid-Kick speichert Extra-Energie für kraftvolle Schüsse aus den Kreisen und dem Slot.",
+        "fr": "Le mid-kick stocke de l'energie supplementaire pour des tirs puissants des cercles et de l'enclave."
+      },
+      "defender": {
+        "en": "Maximum slapshot power from the point in a stick designed for younger defensemen.",
+        "de": "Maximale Slapshot-Power von der blauen Linie in einem Schläger für junge Verteidiger.",
+        "fr": "Puissance maximale en tir frappe de la pointe dans un baton pour jeunes defenseurs."
+      },
+      "power-forward": {
+        "en": "Built for young power players who crash the net and need raw shooting force.",
+        "de": "Gebaut für junge Power-Spieler, die aufs Tor fahren und rohe Schusskraft brauchen.",
+        "fr": "Concu pour les jeunes joueurs de puissance qui foncent au filet."
+      },
+      "grinder": {
+        "en": "Durable mid-kick construction for physical youth and junior players.",
+        "de": "Haltbare Mid-Kick-Bauweise für physische Jugend- und Juniorspieler.",
+        "fr": "Construction mid-kick durable pour les jeunes joueurs physiques."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/tacks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-xf",
+    "brand": "CCM",
+    "model": "XF",
+    "line": "Tacks",
+    "tier": "performance",
+    "tagline": {
+      "en": "Powerful mid-kick for competitive play",
+      "de": "Kraftvoller Mid-Kick für den Wettkampf",
+      "fr": "Mid-kick puissant pour le jeu competitif"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Solid mid-kick power at a performance price",
+        "Good durability for physical play"
+      ],
+      "de": [
+        "Solide Mid-Kick-Power zum Performance-Preis",
+        "Gute Haltbarkeit für physisches Spiel"
+      ],
+      "fr": [
+        "Puissance mid-kick solide a un prix performance",
+        "Bonne durabilite pour le jeu physique"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier feel than elite models",
+        "Less responsive blade than higher-tier sticks"
+      ],
+      "de": [
+        "Schwereres Gefühl als Elite-Modelle",
+        "Weniger reaktives Blatt als höhere Modelle"
+      ],
+      "fr": [
+        "Sensation plus lourde que les modeles elite",
+        "Palette moins reactive que les modeles superieurs"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick adds power to your shots from the slot without breaking the bank.",
+        "de": "Der Mid-Kick fuegt deinen Schüssen aus dem Slot mehr Power hinzu, ohne das Budget zu sprengen.",
+        "fr": "Le mid-kick ajoute de la puissance a vos tirs de l'enclave sans casser la tirelire."
+      },
+      "defender": {
+        "en": "Durable mid-kick for defensemen who need reliable point shots and physical durability.",
+        "de": "Haltbarer Mid-Kick für Verteidiger, die zuverlässige Schlagschüsse und Robustheit brauchen.",
+        "fr": "Mid-kick durable pour les defenseurs qui ont besoin de tirs de pointe fiables et de robustesse."
+      },
+      "power-forward": {
+        "en": "The power-focused mid kick is perfect for forwards who battle hard in front of the net.",
+        "de": "Der kraftorientierte Mid-Kick ist perfekt für Stuermer, die hart vor dem Tor kaempfen.",
+        "fr": "Le mid-kick axe sur la puissance est parfait pour les attaquants qui bataillent devant le filet."
+      },
+      "grinder": {
+        "en": "Tough construction handles board battles with enough power for opportunistic shots.",
+        "de": "Robuste Bauweise für Bandenkaempfe mit genug Power für Gelegenheitsschüsse.",
+        "fr": "Construction robuste pour les batailles en bande avec assez de puissance pour les tirs opportunistes."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/tacks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "ccm-xf70",
+    "brand": "CCM",
+    "model": "XF70",
+    "line": "Tacks",
+    "tier": "entry",
+    "tagline": {
+      "en": "Entry-level mid-kick power",
+      "de": "Einstiegs-Mid-Kick-Power",
+      "fr": "Puissance mid-kick d'entree de gamme"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Affordable mid-kick for beginners",
+        "Durable for recreational use",
+        "Multiple size options"
+      ],
+      "de": [
+        "Erschwinglicher Mid-Kick für Anfänger",
+        "Haltbar für den Freizeiteinsatz",
+        "Mehrere Grössenoptionen"
+      ],
+      "fr": [
+        "Mid-kick abordable pour debutants",
+        "Durable pour l'usage recreatif",
+        "Plusieurs options de taille"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Basic materials and construction",
+        "Heavier than performance and elite models"
+      ],
+      "de": [
+        "Einfache Materialien und Bauweise",
+        "Schwerer als Performance- und Elite-Modelle"
+      ],
+      "fr": [
+        "Materiaux et construction basiques",
+        "Plus lourd que les modeles performance et elite"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "A budget-friendly mid-kick that helps beginners learn to load the shaft for powerful shots.",
+        "de": "Ein budgetfreundlicher Mid-Kick, der Anfängern hilft, den Schaft für kraftvolle Schüsse zu laden.",
+        "fr": "Un mid-kick economique qui aide les debutants a charger la tige pour des tirs puissants."
+      },
+      "defender": {
+        "en": "Good starter stick for aspiring defensemen learning slapshots and defensive play.",
+        "de": "Guter Einstiegsschläger für angehende Verteidiger, die Slapshots und Defensivspiel lernen.",
+        "fr": "Bon baton de depart pour les aspirants defenseurs apprenant les tirs frappes."
+      },
+      "power-forward": {
+        "en": "Durable and affordable for physical players who are still developing their skills.",
+        "de": "Haltbar und erschwinglich für physische Spieler, die ihre Faehigkeiten noch entwickeln.",
+        "fr": "Durable et abordable pour les joueurs physiques qui developpent encore leurs competences."
+      },
+      "grinder": {
+        "en": "Tough starter stick that can take a beating while you learn the game.",
+        "de": "Robuster Einstiegsschläger, der einiges aushalt, waehrend du das Spiel lernst.",
+        "fr": "Baton de depart robuste qui resiste bien pendant que vous apprenez le jeu."
+      }
+    },
+    "officialUrl": "https://www.ccmhockey.com/en/hockey/sticks/tacks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-hzrdus-smoke",
+    "brand": "True",
+    "model": "HZRDUS Smoke",
+    "line": "HZRDUS",
+    "tier": "elite",
+    "tagline": {
+      "en": "True's flagship quick-release weapon",
+      "de": "Trues Flaggschiff-Schnellschusswaffe",
+      "fr": "L'arme de tir rapide phare de True"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "True's most advanced low-kick technology",
+        "Exceptional quick release and puck feel",
+        "Premium lightweight construction"
+      ],
+      "de": [
+        "Trues fortschrittlichste Low-Kick-Technologie",
+        "Aussergewöhnlicher Schnellabzug und Puckgefühl",
+        "Premium-Leichtbauweise"
+      ],
+      "fr": [
+        "La technologie low-kick la plus avancee de True",
+        "Tir rapide et sensation de rondelle exceptionnels",
+        "Construction legere premium"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Limited to intermediate and senior",
+        "Top-tier price"
+      ],
+      "de": [
+        "Auf Intermediate und Senior beschraenkt",
+        "Höchster Preis"
+      ],
+      "fr": [
+        "Limite aux tailles intermediaire et senior",
+        "Prix tres eleve"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "True's most refined low kick delivers the fastest, most accurate wrist shots in the lineup.",
+        "de": "Trues feinster Low-Kick liefert die schnellsten und präzisesten Handgelenkschüsse der Reihe.",
+        "fr": "Le low kick le plus raffine de True offre les tirs du poignet les plus rapides et precis."
+      },
+      "defender": {
+        "en": "Ultra-light construction keeps your hands fresh for precise outlet passes all game long.",
+        "de": "Ultraleichte Bauweise haelt deine Haende frisch für präzise Befreiungspaesse.",
+        "fr": "Construction ultra-legere pour des passes de degagement precises tout le match."
+      },
+      "power-forward": {
+        "en": "Quick release from tight spaces near the net gives you an edge in traffic.",
+        "de": "Schneller Abzug aus der Enge nahe dem Tor gibt dir einen Vorteil im Gedraenge.",
+        "fr": "Le tir rapide en espace reduit pres du filet vous donne un avantage dans le trafic."
+      },
+      "grinder": {
+        "en": "Premium blade feel makes redirections and quick plays more effective.",
+        "de": "Premium-Blattgefühl macht Umlenkungen und schnelle Spielzuege effektiver.",
+        "fr": "La sensation de palette premium rend les deviations et jeux rapides plus efficaces."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z",
+    "flexRange": {
+      "intermediate": {
+        "min": 55,
+        "max": 65
+      },
+      "senior": {
+        "min": 70,
+        "max": 85
+      }
+    }
+  },
+  {
+    "id": "true-hzrdus-px",
+    "brand": "True",
+    "model": "HZRDUS PX",
+    "line": "HZRDUS",
+    "tier": "elite",
+    "tagline": {
+      "en": "Elite performance with pro-level precision",
+      "de": "Elite-Leistung mit Profi-Präzision",
+      "fr": "Performance elite avec precision professionnelle"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "Pro-level quick release technology",
+        "Excellent puck feel and blade response",
+        "Available down to junior size"
+      ],
+      "de": [
+        "Profi-Schnellschusstechnologie",
+        "Hervorragendes Puckgefühl und Blattreaktion",
+        "Bis zur Juniorengrösse erhältlich"
+      ],
+      "fr": [
+        "Technologie de tir rapide professionnelle",
+        "Excellent feeling et reactivite de palette",
+        "Disponible jusqu'a la taille junior"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Less slapshot power than mid-kick sticks",
+        "Elite price point"
+      ],
+      "de": [
+        "Weniger Slapshot-Power als Mid-Kick-Schläger",
+        "Elite-Preis"
+      ],
+      "fr": [
+        "Moins de puissance en tir frappe que les mid-kick",
+        "Prix elite"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick with pro-level blade technology gives you elite-caliber wrist and snap shots.",
+        "de": "Low-Kick mit Profi-Blatttechnologie für Handgelenk- und Schnappschüsse auf Elite-Niveau.",
+        "fr": "Le low kick avec technologie de palette pro offre des tirs du poignet de calibre elite."
+      },
+      "defender": {
+        "en": "Responsive blade and quick release help defensemen move the puck efficiently.",
+        "de": "Reaktives Blatt und schneller Abzug helfen Verteidigern, den Puck effizient zu bewegen.",
+        "fr": "Palette reactive et tir rapide aident les defenseurs a deplacer la rondelle efficacement."
+      },
+      "power-forward": {
+        "en": "Quick release lets you capitalize on chances in front of the net before defenders react.",
+        "de": "Schneller Abzug lässt dich Chancen vor dem Tor nutzen, bevor Verteidiger reagieren.",
+        "fr": "Le tir rapide permet de profiter des occasions devant le filet avant que les defenseurs reagissent."
+      },
+      "grinder": {
+        "en": "Great blade feel for winning puck battles and making quick plays along the boards.",
+        "de": "Tolles Blattgefühl für gewonnene Puck-Duelle und schnelle Spielzuege an der Bande.",
+        "fr": "Excellent feeling de palette pour les batailles et jeux rapides le long de la bande."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-hzrdus-9x5",
+    "brand": "True",
+    "model": "HZRDUS 9X5",
+    "line": "HZRDUS",
+    "tier": "elite",
+    "tagline": {
+      "en": "Top-tier speed and accuracy",
+      "de": "Erstklassige Geschwindigkeit und Präzision",
+      "fr": "Vitesse et precision de premier ordre"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "Elite-tier quick release",
+        "Lightweight and balanced",
+        "Excellent energy transfer"
+      ],
+      "de": [
+        "Schnellabzug auf Elite-Niveau",
+        "Leicht und ausgewogen",
+        "Hervorragende Energieübertragung"
+      ],
+      "fr": [
+        "Tir rapide de niveau elite",
+        "Leger et equilibre",
+        "Excellent transfert d'energie"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Premium price",
+        "Low kick less effective for slapshots"
+      ],
+      "de": [
+        "Premium-Preis",
+        "Low-Kick weniger effektiv für Slapshots"
+      ],
+      "fr": [
+        "Prix premium",
+        "Low kick moins efficace pour les tirs frappes"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Elite low kick ensures your wrist shots leave the blade with maximum velocity and accuracy.",
+        "de": "Der Elite-Low-Kick sorgt für maximale Geschwindigkeit und Präzision bei Handgelenkschüssen.",
+        "fr": "Le low kick elite garantit vitesse et precision maximales sur les tirs du poignet."
+      },
+      "defender": {
+        "en": "Quick, light design helps you fire off shots from the point before the lane closes.",
+        "de": "Schnelles, leichtes Design hilft beim Schiessen von der blauen Linie, bevor die Luecke sich schliesst.",
+        "fr": "Le design rapide et leger permet de tirer de la pointe avant que le couloir se ferme."
+      },
+      "power-forward": {
+        "en": "Rapid release gives you an edge when battling for loose pucks near the crease.",
+        "de": "Schneller Abzug gibt dir einen Vorteil bei Kaempfen um lose Pucks vor dem Tor.",
+        "fr": "La liberation rapide donne un avantage en battant pour les rondelles libres devant le filet."
+      },
+      "grinder": {
+        "en": "Responsive blade makes quick plays and redirections more effective in traffic.",
+        "de": "Reaktives Blatt macht schnelle Spielzuege und Umlenkungen im Gedraenge effektiver.",
+        "fr": "La palette reactive rend les jeux rapides et deviations plus efficaces dans le trafic."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-hzrdus-7x5",
+    "brand": "True",
+    "model": "HZRDUS 7X5",
+    "line": "HZRDUS",
+    "tier": "elite",
+    "tagline": {
+      "en": "Elite quick release at strong value",
+      "de": "Elite-Schnellschuss zum starken Preis",
+      "fr": "Tir rapide elite a un bon rapport qualite-prix"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "Elite low-kick performance",
+        "Strong value within the HZRDUS line"
+      ],
+      "de": [
+        "Elite-Low-Kick-Leistung",
+        "Starkes Preis-Leistungs-Verhaeltnis in der HZRDUS-Reihe"
+      ],
+      "fr": [
+        "Performance elite low-kick",
+        "Bon rapport qualite-prix dans la gamme HZRDUS"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Slightly less refined feel than the 9X5",
+        "Less slapshot power"
+      ],
+      "de": [
+        "Etwas weniger feines Gefühl als der 9X5",
+        "Weniger Slapshot-Power"
+      ],
+      "fr": [
+        "Sensation legerement moins raffinee que le 9X5",
+        "Moins de puissance en tir frappe"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick delivers the quick release snipers need at a more accessible elite price.",
+        "de": "Der Low-Kick liefert den Schnellabzug für Scharfschützen zu einem zugaenglicheren Elite-Preis.",
+        "fr": "Le low kick offre le tir rapide des snipers a un prix elite plus accessible."
+      },
+      "defender": {
+        "en": "Quick passing and good puck feel for defensemen who value speed.",
+        "de": "Schnelle Paesse und gutes Puckgefühl für Verteidiger, die Geschwindigkeit schaetzen.",
+        "fr": "Passes rapides et bon feeling pour les defenseurs qui valorisent la vitesse."
+      },
+      "power-forward": {
+        "en": "Fast release helps you finish scoring chances quickly in front of the net.",
+        "de": "Schneller Abzug hilft beim schnellen Verwerten von Torchancen vor dem Tor.",
+        "fr": "Le tir rapide aide a finir les occasions de marquer rapidement devant le filet."
+      },
+      "grinder": {
+        "en": "Good blade response for quick plays and battles in tight spaces.",
+        "de": "Gute Blattreaktion für schnelle Spielzuege und Kaempfe in engen Raeumen.",
+        "fr": "Bonne reactivite de palette pour les jeux rapides et batailles en espace reduit."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-hzrdus-5x5",
+    "brand": "True",
+    "model": "HZRDUS 5X5",
+    "line": "HZRDUS",
+    "tier": "performance",
+    "tagline": {
+      "en": "Performance-level quick release",
+      "de": "Schnellschuss auf Performance-Niveau",
+      "fr": "Tir rapide niveau performance"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "HZRDUS low-kick at a performance price",
+        "Good durability for competitive play"
+      ],
+      "de": [
+        "HZRDUS-Low-Kick zum Performance-Preis",
+        "Gute Haltbarkeit für Wettkampfspiel"
+      ],
+      "fr": [
+        "Low-kick HZRDUS a un prix performance",
+        "Bonne durabilite pour le jeu competitif"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than elite HZRDUS models",
+        "Less refined blade feel"
+      ],
+      "de": [
+        "Schwerer als Elite-HZRDUS-Modelle",
+        "Weniger feines Blattgefühl"
+      ],
+      "fr": [
+        "Plus lourd que les modeles HZRDUS elite",
+        "Sensation de palette moins raffinee"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Affordable low kick for competitive snipers who want quick release without the elite price.",
+        "de": "Erschwinglicher Low-Kick für Wettkampf-Scharfschützen, die schnellen Abzug ohne Elite-Preis wollen.",
+        "fr": "Low kick abordable pour les snipers competitifs qui veulent le tir rapide sans le prix elite."
+      },
+      "defender": {
+        "en": "Reliable low-kick stick for defensemen at a competitive price point.",
+        "de": "Zuverlässiger Low-Kick-Schläger für Verteidiger zum Wettkampfpreis.",
+        "fr": "Baton low-kick fiable pour defenseurs a un prix competitif."
+      },
+      "power-forward": {
+        "en": "Durable construction handles physical play while maintaining a responsive release.",
+        "de": "Haltbare Bauweise für physisches Spiel mit reaktionsschnellem Abzug.",
+        "fr": "Construction durable pour le jeu physique avec un tir reactif."
+      },
+      "grinder": {
+        "en": "Solid workhorse stick with enough quickness for opportunistic shots.",
+        "de": "Solider Arbeiterschläger mit genug Schnelligkeit für Gelegenheitsschüsse.",
+        "fr": "Baton de travail solide avec assez de rapidite pour les tirs opportunistes."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-hzrdus-5x4",
+    "brand": "True",
+    "model": "HZRDUS 5X4",
+    "line": "HZRDUS",
+    "tier": "performance",
+    "tagline": {
+      "en": "Versatile performance for developing talent",
+      "de": "Vielseitige Performance für aufstrebende Talente",
+      "fr": "Performance polyvalente pour les talents en developpement"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "HZRDUS technology at an accessible price",
+        "Good balance of feel and durability"
+      ],
+      "de": [
+        "HZRDUS-Technologie zu zugaenglichem Preis",
+        "Gute Balance aus Gefühl und Haltbarkeit"
+      ],
+      "fr": [
+        "Technologie HZRDUS a un prix accessible",
+        "Bon equilibre entre sensation et durabilite"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Not as light as higher-tier HZRDUS models",
+        "Basic blade construction"
+      ],
+      "de": [
+        "Nicht so leicht wie höhere HZRDUS-Modelle",
+        "Einfache Blattkonstruktion"
+      ],
+      "fr": [
+        "Pas aussi leger que les modeles HZRDUS superieurs",
+        "Construction de palette basique"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick point teaches developing snipers the quick-release technique at an affordable price.",
+        "de": "Der tiefe Kickpoint lehrt junge Scharfschützen die Schnellschusstechnik zum fairen Preis.",
+        "fr": "Le kick bas enseigne aux snipers en developpement la technique du tir rapide a bon prix."
+      },
+      "defender": {
+        "en": "Affordable and durable for defensemen in competitive and recreational leagues.",
+        "de": "Erschwinglich und haltbar für Verteidiger in Wettkampf- und Freizeitligen.",
+        "fr": "Abordable et durable pour les defenseurs en ligues competitives et recreatives."
+      },
+      "power-forward": {
+        "en": "Handles physical play well while keeping enough responsiveness for quick shots.",
+        "de": "Haelt physischem Spiel stand und bleibt reaktionsschnell für schnelle Schüsse.",
+        "fr": "Gere bien le jeu physique tout en gardant la reactivite pour les tirs rapides."
+      },
+      "grinder": {
+        "en": "Durable and affordable — ideal for grinders who go through sticks regularly.",
+        "de": "Haltbar und erschwinglich — ideal für Grinder, die regelmaessig Schläger verbrauchen.",
+        "fr": "Durable et abordable — ideal pour les grinders qui usent regulierement des batons."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-hzrdus-3x5",
+    "brand": "True",
+    "model": "HZRDUS 3X5",
+    "line": "HZRDUS",
+    "tier": "entry",
+    "tagline": {
+      "en": "HZRDUS quick release for beginners",
+      "de": "HZRDUS-Schnellschuss für Anfänger",
+      "fr": "Tir rapide HZRDUS pour debutants"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "Affordable entry into the HZRDUS line",
+        "Low kick helps beginners develop quick releases",
+        "Multiple sizes available"
+      ],
+      "de": [
+        "Guenstiger Einstieg in die HZRDUS-Reihe",
+        "Low-Kick hilft Anfängern bei schnellen Abzügen",
+        "Mehrere Grössen erhältlich"
+      ],
+      "fr": [
+        "Entree abordable dans la gamme HZRDUS",
+        "Le low kick aide les debutants a developper le tir rapide",
+        "Plusieurs tailles disponibles"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Basic materials and construction",
+        "Heavier than performance and elite models"
+      ],
+      "de": [
+        "Einfache Materialien und Bauweise",
+        "Schwerer als Performance- und Elite-Modelle"
+      ],
+      "fr": [
+        "Materiaux et construction basiques",
+        "Plus lourd que les modeles performance et elite"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "An affordable low-kick stick that teaches beginners the fundamentals of quick-release shooting.",
+        "de": "Ein erschwinglicher Low-Kick-Schläger für die Grundlagen des Schnellschuss-Schiessens.",
+        "fr": "Un baton low-kick abordable pour apprendre les bases du tir rapide."
+      },
+      "defender": {
+        "en": "Good starter stick for new defensemen learning puck movement and passing.",
+        "de": "Guter Einstiegsschläger für neue Verteidiger, die Puckbewegung und Paessen lernen.",
+        "fr": "Bon baton de depart pour les nouveaux defenseurs apprenant le mouvement de rondelle."
+      },
+      "power-forward": {
+        "en": "Durable entry stick for physical players developing their game.",
+        "de": "Haltbarer Einstiegsschläger für physische Spieler in der Entwicklung.",
+        "fr": "Baton d'entree durable pour les joueurs physiques en developpement."
+      },
+      "grinder": {
+        "en": "Budget-friendly and tough enough to handle the physical play grinders demand.",
+        "de": "Budgetfreundlich und robust genug für das physische Spiel der Grinder.",
+        "fr": "Economique et assez robuste pour le jeu physique que les grinders exigent."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-catalyst-9x3",
+    "brand": "True",
+    "model": "Catalyst 9X3",
+    "line": "Catalyst",
+    "tier": "elite",
+    "tagline": {
+      "en": "Balanced elite performance for all positions",
+      "de": "Ausgewogene Elite-Leistung für alle Positionen",
+      "fr": "Performance elite equilibree pour toutes les positions"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "Balanced mid-kick suits all shot types",
+        "Excellent energy transfer",
+        "True's premium construction quality"
+      ],
+      "de": [
+        "Ausgewogener Mid-Kick für alle Schusstypen",
+        "Hervorragende Energieübertragung",
+        "Trues Premium-Bauqualitaet"
+      ],
+      "fr": [
+        "Mid-kick equilibre pour tous les tirs",
+        "Excellent transfert d'energie",
+        "Qualite de construction premium True"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Not as fast on wrist shots as low-kick sticks",
+        "Premium price"
+      ],
+      "de": [
+        "Nicht so schnell bei Handgelenkschüssen wie Low-Kick-Schläger",
+        "Premium-Preis"
+      ],
+      "fr": [
+        "Pas aussi rapide au poignet que les batons low-kick",
+        "Prix premium"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick adds extra power to your shots from the circles and slot for heavier one-timers.",
+        "de": "Der Mid-Kick fuegt deinen Schüssen aus den Kreisen und dem Slot Extra-Power für schwerere One-Timer hinzu.",
+        "fr": "Le mid-kick ajoute de la puissance pour des one-timers plus lourds depuis les cercles et l'enclave."
+      },
+      "defender": {
+        "en": "Balanced construction delivers heavy point shots and reliable defensive play all game long.",
+        "de": "Ausgewogene Bauweise für schwere Schlagschüsse und zuverlässiges Defensivspiel.",
+        "fr": "Construction equilibree pour des tirs de pointe lourds et un jeu defensif fiable."
+      },
+      "power-forward": {
+        "en": "The balanced mid kick stores power for finishing close to the net while handling physical play.",
+        "de": "Der ausgewogene Mid-Kick speichert Power zum Abschluss nahe dem Tor im physischen Spiel.",
+        "fr": "Le mid-kick equilibre stocke la puissance pour finir pres du filet dans le jeu physique."
+      },
+      "grinder": {
+        "en": "All-around performance handles every aspect of the grinder's game with consistency.",
+        "de": "Allround-Leistung für jeden Aspekt des Grinder-Spiels mit Konstanz.",
+        "fr": "Performance polyvalente pour chaque aspect du jeu du grinder avec constance."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-catalyst-7x3",
+    "brand": "True",
+    "model": "Catalyst 7X3",
+    "line": "Catalyst",
+    "tier": "performance",
+    "tagline": {
+      "en": "Balanced performance for competitive play",
+      "de": "Ausgewogene Performance für den Wettkampf",
+      "fr": "Performance equilibree pour le jeu competitif"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "Catalyst balance at a performance price",
+        "Versatile for all positions"
+      ],
+      "de": [
+        "Catalyst-Balance zum Performance-Preis",
+        "Vielseitig für alle Positionen"
+      ],
+      "fr": [
+        "Equilibre Catalyst a un prix performance",
+        "Polyvalent pour toutes les positions"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than the elite 9X3",
+        "Less refined blade feel"
+      ],
+      "de": [
+        "Schwerer als der Elite 9X3",
+        "Weniger feines Blattgefühl"
+      ],
+      "fr": [
+        "Plus lourd que le 9X3 elite",
+        "Sensation de palette moins raffinee"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick adds shot power at a price that competitive league players appreciate.",
+        "de": "Der Mid-Kick fuegt Schusskraft zu einem Preis hinzu, den Wettkampfspieler schaetzen.",
+        "fr": "Le mid-kick ajoute de la puissance a un prix que les joueurs competitifs apprecient."
+      },
+      "defender": {
+        "en": "Reliable mid-kick for defensemen who need slapshot power and passing precision.",
+        "de": "Zuverlässiger Mid-Kick für Verteidiger, die Slapshot-Power und Passgenauigkeit brauchen.",
+        "fr": "Mid-kick fiable pour les defenseurs qui ont besoin de puissance et de precision."
+      },
+      "power-forward": {
+        "en": "Balanced and durable for physical play with good shot power from any position.",
+        "de": "Ausgewogen und haltbar für physisches Spiel mit guter Schusskraft aus jeder Position.",
+        "fr": "Equilibre et durable pour le jeu physique avec bonne puissance de tir."
+      },
+      "grinder": {
+        "en": "A dependable all-around stick that handles everything a grinder needs.",
+        "de": "Ein zuverlässiger Allround-Schläger für alles, was ein Grinder braucht.",
+        "fr": "Un baton polyvalent fiable qui gere tout ce dont un grinder a besoin."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-catalyst-xs3",
+    "brand": "True",
+    "model": "Catalyst XS3",
+    "line": "Catalyst",
+    "tier": "entry",
+    "tagline": {
+      "en": "Balanced entry-level for all players",
+      "de": "Ausgewogener Einstieg für alle Spieler",
+      "fr": "Entree de gamme equilibree pour tous"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "Affordable balanced mid-kick stick",
+        "Forgiving flex for beginners",
+        "Good durability for the price"
+      ],
+      "de": [
+        "Erschwinglicher ausgewogener Mid-Kick-Schläger",
+        "Verzeihender Flex für Anfänger",
+        "Gute Haltbarkeit für den Preis"
+      ],
+      "fr": [
+        "Baton mid-kick equilibre abordable",
+        "Flex indulgent pour debutants",
+        "Bonne durabilite pour le prix"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Basic construction and materials",
+        "Heavier than higher-tier models"
+      ],
+      "de": [
+        "Einfache Bauweise und Materialien",
+        "Schwerer als höhere Modelle"
+      ],
+      "fr": [
+        "Construction et materiaux basiques",
+        "Plus lourd que les modeles superieurs"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick helps beginners learn to load the shaft for powerful shots at a budget price.",
+        "de": "Der Mid-Kick hilft Anfängern, das Laden des Schafts für kraftvolle Schüsse zu lernen.",
+        "fr": "Le mid-kick aide les debutants a apprendre a charger le tir a un prix economique."
+      },
+      "defender": {
+        "en": "Forgiving flex and durable construction for new defensemen developing their game.",
+        "de": "Verzeihender Flex und haltbare Bauweise für neue Verteidiger in der Entwicklung.",
+        "fr": "Flex indulgent et construction durable pour les nouveaux defenseurs en developpement."
+      },
+      "power-forward": {
+        "en": "A solid starter for physical players who need a balanced, durable stick.",
+        "de": "Ein solider Einstieg für physische Spieler, die einen ausgewogenen, haltbaren Schläger brauchen.",
+        "fr": "Un bon depart pour les joueurs physiques qui ont besoin d'un baton equilibre et durable."
+      },
+      "grinder": {
+        "en": "Tough and affordable — perfect for grinders who are still learning the game.",
+        "de": "Robust und erschwinglich — perfekt für Grinder, die das Spiel noch lernen.",
+        "fr": "Robuste et abordable — parfait pour les grinders qui apprennent encore le jeu."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-project-x-storm",
+    "brand": "True",
+    "model": "Project X Storm",
+    "line": "Project X",
+    "tier": "innovation",
+    "tagline": {
+      "en": "Innovative scoring technology unleashed",
+      "de": "Innovative Tor-Technologie entfesselt",
+      "fr": "Technologie de marquage innovante liberee"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "Cutting-edge innovation in low-kick design",
+        "Unique shooting feel",
+        "Built for scoring"
+      ],
+      "de": [
+        "Modernste Innovation im Low-Kick-Design",
+        "Einzigartiges Schussgefühl",
+        "Für Tore gebaut"
+      ],
+      "fr": [
+        "Innovation de pointe en design low-kick",
+        "Sensation de tir unique",
+        "Concu pour marquer"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Limited size range",
+        "Requires adjustment from traditional sticks"
+      ],
+      "de": [
+        "Begrenzte Grössenauswahl",
+        "Erfordert Umstellung von traditionellen Schlägern"
+      ],
+      "fr": [
+        "Gamme de tailles limitee",
+        "Necessite une adaptation depuis les batons traditionnels"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Innovation-focused low kick maximizes scoring potential with a unique energy release system.",
+        "de": "Der innovationsorientierte Low-Kick maximiert das Torpotenzial mit einem einzigartigen Energiefreisetzungssystem.",
+        "fr": "Le low kick innovant maximise le potentiel de marquage avec un systeme de liberation d'energie unique."
+      },
+      "defender": {
+        "en": "Quick, innovative design helps defensemen get shots through traffic from the point.",
+        "de": "Schnelles, innovatives Design hilft Verteidigern, Schüsse durch den Verkehr von der blauen Linie zu bringen.",
+        "fr": "Le design rapide et innovant aide les defenseurs a tirer a travers le trafic depuis la pointe."
+      },
+      "power-forward": {
+        "en": "Innovative release technology gives power forwards an edge in scoring from tight spaces.",
+        "de": "Innovative Abzugstechnologie gibt Power-Forwards einen Vorteil beim Toreschiessen aus der Enge.",
+        "fr": "La technologie de tir innovante donne aux power-forwards un avantage pour marquer en espace reduit."
+      },
+      "grinder": {
+        "en": "Unique blade technology improves redirections and quick shots in the crease area.",
+        "de": "Einzigartige Blatttechnologie verbessert Umlenkungen und Schnellschüsse vor dem Tor.",
+        "fr": "La technologie de palette unique ameliore les deviations et tirs rapides dans l'enclave."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "true-project-x-smoke",
+    "brand": "True",
+    "model": "Project X Smoke",
+    "line": "Project X",
+    "tier": "innovation",
+    "tagline": {
+      "en": "The ultimate innovation for elite scorers",
+      "de": "Die ultimative Innovation für Elite-Torschützen",
+      "fr": "L'innovation ultime pour les marqueurs d'elite"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "elite"
+    ],
+    "bladePatterns": [
+      "TC2",
+      "TC4",
+      "TC6"
+    ],
+    "recBlade": {
+      "sniper": "TC2",
+      "defender": "TC4",
+      "power-forward": "TC4",
+      "grinder": "TC6"
+    },
+    "pros": {
+      "en": [
+        "Most advanced innovation stick from True",
+        "Unmatched quick-release technology",
+        "Premium materials throughout"
+      ],
+      "de": [
+        "Fortschrittlichster Innovationsschläger von True",
+        "Unerreichte Schnellschusstechnologie",
+        "Premium-Materialien durchgehend"
+      ],
+      "fr": [
+        "Le baton le plus innovant de True",
+        "Technologie de tir rapide inegalee",
+        "Materiaux premium de bout en bout"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Senior size only",
+        "Highest price point",
+        "Requires elite skill to maximize"
+      ],
+      "de": [
+        "Nur in Seniorgrösse",
+        "Höchster Preis",
+        "Erfordert Elite-Können zur Maximierung"
+      ],
+      "fr": [
+        "Taille senior uniquement",
+        "Prix le plus eleve",
+        "Necessite un niveau elite pour maximiser"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The pinnacle of innovation engineering — designed for elite snipers who demand the absolute fastest release.",
+        "de": "Der Gipfel der Innovationstechnik — für Elite-Scharfschützen, die den absolut schnellsten Abzug fordern.",
+        "fr": "Le sommet de l'ingenierie innovante — pour les snipers d'elite qui exigent le tir le plus rapide absolu."
+      },
+      "defender": {
+        "en": "Elite-only construction gives defensemen the lightest, most responsive tool from the point.",
+        "de": "Elite-Bauweise gibt Verteidigern das leichteste und reaktionsschnellste Werkzeug von der blauen Linie.",
+        "fr": "La construction elite donne aux defenseurs l'outil le plus leger et reactif depuis la pointe."
+      },
+      "power-forward": {
+        "en": "Innovation technology gives power forwards an unprecedented quick release from the dirty areas.",
+        "de": "Innovationstechnologie gibt Power-Forwards einen beispiellosen Schnellabzug aus den Kampfzonen.",
+        "fr": "La technologie innovante donne aux power-forwards un tir rapide sans precedent des zones de combat."
+      },
+      "grinder": {
+        "en": "Premium blade technology elevates every touch and redirect around the crease.",
+        "de": "Premium-Blatttechnologie hebt jede Beruehrung und Umlenkung vor dem Tor auf ein neues Niveau.",
+        "fr": "La technologie de palette premium eleve chaque toucher et deviation devant le filet."
+      }
+    },
+    "officialUrl": "https://www.truehockey.com/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z",
+    "flexRange": {
+      "intermediate": {
+        "min": 55,
+        "max": 65
+      },
+      "senior": {
+        "min": 70,
+        "max": 85
+      }
+    }
+  },
+  {
+    "id": "warrior-lx3-pro",
+    "brand": "Warrior",
+    "model": "LX3 Pro",
+    "line": "LX3",
+    "tier": "elite",
+    "tagline": {
+      "en": "Warrior's premier quick-release stick",
+      "de": "Warriors erstklassiger Schnellschuss-Schläger",
+      "fr": "Le baton de tir rapide premier de Warrior"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "youth",
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Elite quick-release performance",
+        "Lightweight and balanced",
+        "Available in all size categories"
+      ],
+      "de": [
+        "Elite-Schnellschuss-Performance",
+        "Leicht und ausgewogen",
+        "In allen Grössen erhältlich"
+      ],
+      "fr": [
+        "Performance de tir rapide d'elite",
+        "Leger et equilibre",
+        "Disponible dans toutes les tailles"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Less slapshot power than mid-kick options",
+        "Premium price"
+      ],
+      "de": [
+        "Weniger Slapshot-Power als Mid-Kick-Optionen",
+        "Premium-Preis"
+      ],
+      "fr": [
+        "Moins de puissance en tir frappe que les options mid-kick",
+        "Prix premium"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Warrior's fastest low kick delivers lightning wrist shots and snap shots for elite scorers.",
+        "de": "Warriors schnellster Low-Kick für blitzschnelle Handgelenk- und Schnappschüsse auf Elite-Niveau.",
+        "fr": "Le low kick le plus rapide de Warrior pour des tirs du poignet foudroyants pour les marqueurs d'elite."
+      },
+      "defender": {
+        "en": "Ultra-light build reduces fatigue while maintaining the precision needed for breakout plays.",
+        "de": "Ultraleichte Bauweise reduziert Ermüdung und erhaelt die Präzision für Ausbruchspielzuege.",
+        "fr": "Construction ultra-legere reduit la fatigue tout en maintenant la precision pour les sorties de zone."
+      },
+      "power-forward": {
+        "en": "Quick release from tight spaces gives power forwards scoring opportunities others miss.",
+        "de": "Schneller Abzug aus engen Raeumen gibt Power-Forwards Torchancen, die andere verpassen.",
+        "fr": "Le tir rapide en espace reduit donne aux power-forwards des occasions que les autres manquent."
+      },
+      "grinder": {
+        "en": "Light and responsive for quick plays in traffic and deflections around the net.",
+        "de": "Leicht und reaktionsschnell für schnelle Spielzuege im Gedraenge und Umlenkungen am Tor.",
+        "fr": "Leger et reactif pour les jeux rapides en trafic et deviations autour du filet."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-lx3",
+    "brand": "Warrior",
+    "model": "LX3",
+    "line": "LX3",
+    "tier": "performance",
+    "tagline": {
+      "en": "Quick-release performance for all",
+      "de": "Schnellschuss-Performance für alle",
+      "fr": "Performance de tir rapide pour tous"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "youth",
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "LX3 quick release at a performance price",
+        "Available in all sizes including youth",
+        "Good value for competitive play"
+      ],
+      "de": [
+        "LX3-Schnellschuss zum Performance-Preis",
+        "In allen Grössen inklusive Jugend erhältlich",
+        "Gutes Preis-Leistungs-Verhaeltnis"
+      ],
+      "fr": [
+        "Tir rapide LX3 a un prix performance",
+        "Disponible dans toutes les tailles y compris jeune",
+        "Bon rapport qualite-prix"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than the LX3 Pro",
+        "Less refined blade technology"
+      ],
+      "de": [
+        "Schwerer als der LX3 Pro",
+        "Weniger feine Blatttechnologie"
+      ],
+      "fr": [
+        "Plus lourd que le LX3 Pro",
+        "Technologie de palette moins raffinee"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick delivers quick releases at a price that competitive and recreational snipers can afford.",
+        "de": "Der Low-Kick liefert Schnellschüsse zu einem Preis, den Wettkampf- und Freizeitscharfschützen sich leisten können.",
+        "fr": "Le low kick offre des tirs rapides a un prix abordable pour les snipers competitifs et recreatifs."
+      },
+      "defender": {
+        "en": "Accessible quick release for defensemen who want speed on outlet passes.",
+        "de": "Zugaenglicher Schnellabzug für Verteidiger, die Geschwindigkeit bei Befreiungspaessen wollen.",
+        "fr": "Tir rapide accessible pour les defenseurs qui veulent de la vitesse sur les passes de sortie."
+      },
+      "power-forward": {
+        "en": "Durable enough for physical play with the quick release to capitalize on chances.",
+        "de": "Haltbar genug für physisches Spiel mit Schnellabzug für das Nutzen von Chancen.",
+        "fr": "Assez durable pour le jeu physique avec le tir rapide pour profiter des occasions."
+      },
+      "grinder": {
+        "en": "Reliable and affordable for players who need a dependable stick that handles physical play.",
+        "de": "Zuverlässig und erschwinglich für Spieler, die einen haltbaren Schläger für physisches Spiel brauchen.",
+        "fr": "Fiable et abordable pour les joueurs qui ont besoin d'un baton dependable pour le jeu physique."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-lx3t",
+    "brand": "Warrior",
+    "model": "LX3T",
+    "line": "LX3",
+    "tier": "performance",
+    "tagline": {
+      "en": "Tuned quick release for competitive edge",
+      "de": "Abgestimmter Schnellschuss für den Wettkampfvorteil",
+      "fr": "Tir rapide ajuste pour l'avantage competitif"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Tuned LX3 performance with refined feel",
+        "Good balance of speed and control"
+      ],
+      "de": [
+        "Abgestimmte LX3-Performance mit verfeinertem Gefühl",
+        "Gute Balance aus Geschwindigkeit und Kontrolle"
+      ],
+      "fr": [
+        "Performance LX3 ajustee avec sensation raffinee",
+        "Bon equilibre entre vitesse et controle"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No youth size",
+        "Mid-range weight"
+      ],
+      "de": [
+        "Keine Jugendgrösse",
+        "Mittleres Gewicht"
+      ],
+      "fr": [
+        "Pas de taille jeune",
+        "Poids moyen"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Tuned low kick provides a refined quick release that competitive snipers will appreciate.",
+        "de": "Der abgestimmte Low-Kick bietet einen verfeinerten Schnellabzug für Wettkampf-Scharfschützen.",
+        "fr": "Le low kick ajuste offre un tir rapide raffine que les snipers competitifs apprecieront."
+      },
+      "defender": {
+        "en": "Good puck feel and quick passing for defensemen in competitive leagues.",
+        "de": "Gutes Puckgefühl und schnelles Passen für Verteidiger in Wettkampfligen.",
+        "fr": "Bon feeling de rondelle et passes rapides pour les defenseurs en ligues competitives."
+      },
+      "power-forward": {
+        "en": "Balanced feel for power forwards who need both control and quick shot ability.",
+        "de": "Ausgewogenes Gefühl für Power-Forwards, die Kontrolle und schnelle Schüsse brauchen.",
+        "fr": "Sensation equilibree pour les power-forwards qui ont besoin de controle et de tir rapide."
+      },
+      "grinder": {
+        "en": "Reliable stick with enough speed for quick plays and redirections.",
+        "de": "Zuverlässiger Schläger mit genug Geschwindigkeit für schnelle Spielzuege und Umlenkungen.",
+        "fr": "Baton fiable avec assez de vitesse pour les jeux rapides et deviations."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-lx3-comp",
+    "brand": "Warrior",
+    "model": "LX3 Comp",
+    "line": "LX3",
+    "tier": "entry",
+    "tagline": {
+      "en": "Entry-level LX3 quick release",
+      "de": "Einstiegs-LX3-Schnellschuss",
+      "fr": "Tir rapide LX3 d'entree de gamme"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Affordable entry to LX3 technology",
+        "Low-kick benefits for beginners",
+        "Solid composite construction"
+      ],
+      "de": [
+        "Guenstiger Einstieg in die LX3-Technologie",
+        "Low-Kick-Vorteile für Anfänger",
+        "Solide Composite-Bauweise"
+      ],
+      "fr": [
+        "Entree abordable dans la technologie LX3",
+        "Avantages du low-kick pour debutants",
+        "Construction composite solide"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than higher-tier LX3 models",
+        "Basic blade feel"
+      ],
+      "de": [
+        "Schwerer als höhere LX3-Modelle",
+        "Einfaches Blattgefühl"
+      ],
+      "fr": [
+        "Plus lourd que les modeles LX3 superieurs",
+        "Sensation de palette basique"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Affordable low kick helps developing snipers learn quick-release shooting fundamentals.",
+        "de": "Erschwinglicher Low-Kick hilft jungen Scharfschützen, Schnellschuss-Grundlagen zu lernen.",
+        "fr": "Le low kick abordable aide les snipers en developpement a apprendre les bases du tir rapide."
+      },
+      "defender": {
+        "en": "Budget-friendly composite for new defensemen learning puck movement.",
+        "de": "Budgetfreundlicher Composite für neue Verteidiger, die Puckbewegung lernen.",
+        "fr": "Composite economique pour les nouveaux defenseurs apprenant le mouvement de rondelle."
+      },
+      "power-forward": {
+        "en": "Durable entry stick for physical players developing their game on a budget.",
+        "de": "Haltbarer Einstiegsschläger für physische Spieler mit kleinem Budget.",
+        "fr": "Baton d'entree durable pour les joueurs physiques avec un petit budget."
+      },
+      "grinder": {
+        "en": "Tough and affordable for players who need a stick that can handle regular use.",
+        "de": "Robust und erschwinglich für Spieler, die einen Schläger für regelmaessigen Einsatz brauchen.",
+        "fr": "Robuste et abordable pour les joueurs qui ont besoin d'un baton pour un usage regulier."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-novium2-pro",
+    "brand": "Warrior",
+    "model": "Novium2 Pro",
+    "line": "Novium2",
+    "tier": "elite",
+    "tagline": {
+      "en": "Elite mid-kick power machine",
+      "de": "Elite-Mid-Kick-Kraftmaschine",
+      "fr": "Machine de puissance mid-kick d'elite"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Maximum slapshot and point-shot power",
+        "Durable elite construction",
+        "Excellent energy storage and release"
+      ],
+      "de": [
+        "Maximale Slapshot- und Schlagschuss-Power",
+        "Haltbare Elite-Bauweise",
+        "Hervorragende Energiespeicherung und -freisetzung"
+      ],
+      "fr": [
+        "Puissance maximale en tir frappe et tir de la pointe",
+        "Construction elite durable",
+        "Excellent stockage et liberation d'energie"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Slower wrist shot release",
+        "Not ideal for pure snipers"
+      ],
+      "de": [
+        "Langsamerer Handgelenkschuss-Abzug",
+        "Nicht ideal für reine Scharfschützen"
+      ],
+      "fr": [
+        "Liberation du tir du poignet plus lente",
+        "Pas ideal pour les snipers purs"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick adds devastating power to one-timers and shots from the high slot.",
+        "de": "Der Mid-Kick fuegt One-Timern und Schüssen aus dem hohen Slot verheerende Power hinzu.",
+        "fr": "Le mid-kick ajoute une puissance devastatrice aux one-timers et tirs de l'enclave haute."
+      },
+      "defender": {
+        "en": "Purpose-built for defensemen who want to bomb slapshots from the blue line all game.",
+        "de": "Speziell gebaut für Verteidiger, die das ganze Spiel Slapshots von der blauen Linie donnern wollen.",
+        "fr": "Concu pour les defenseurs qui veulent bombarder des tirs frappes de la ligne bleue."
+      },
+      "power-forward": {
+        "en": "Built for power players — maximum force on shots from the slot and in close.",
+        "de": "Für Power-Spieler gebaut — maximale Kraft bei Schüssen aus dem Slot und aus der Nähe.",
+        "fr": "Construit pour les joueurs de puissance — force maximale sur les tirs de l'enclave et de pres."
+      },
+      "grinder": {
+        "en": "Extremely durable for physical play with enough mid-kick power for heavy shots.",
+        "de": "Extrem haltbar für physisches Spiel mit genug Mid-Kick-Power für schwere Schüsse.",
+        "fr": "Extremement durable pour le jeu physique avec assez de puissance mid-kick pour les tirs lourds."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-novium2-sp",
+    "brand": "Warrior",
+    "model": "Novium2 SP",
+    "line": "Novium2",
+    "tier": "performance",
+    "tagline": {
+      "en": "Mid-kick power at a smart price",
+      "de": "Mid-Kick-Power zum smarten Preis",
+      "fr": "Puissance mid-kick a un prix intelligent"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Novium2 mid-kick power at a performance price",
+        "Good durability for physical play"
+      ],
+      "de": [
+        "Novium2-Mid-Kick-Power zum Performance-Preis",
+        "Gute Haltbarkeit für physisches Spiel"
+      ],
+      "fr": [
+        "Puissance mid-kick Novium2 a un prix performance",
+        "Bonne durabilite pour le jeu physique"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than the Novium2 Pro",
+        "Less refined blade feel"
+      ],
+      "de": [
+        "Schwerer als der Novium2 Pro",
+        "Weniger feines Blattgefühl"
+      ],
+      "fr": [
+        "Plus lourd que le Novium2 Pro",
+        "Sensation de palette moins raffinee"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick adds shot power for competitive players at a reasonable investment.",
+        "de": "Der Mid-Kick fuegt Schusskraft für Wettkampfspieler zu einer vernuenftigen Investition hinzu.",
+        "fr": "Le mid-kick ajoute de la puissance pour les joueurs competitifs a un investissement raisonnable."
+      },
+      "defender": {
+        "en": "Reliable mid-kick for defensemen who want point-shot power without the elite price.",
+        "de": "Zuverlässiger Mid-Kick für Verteidiger, die Schlagschuss-Power ohne Elite-Preis wollen.",
+        "fr": "Mid-kick fiable pour les defenseurs qui veulent la puissance de tir sans le prix elite."
+      },
+      "power-forward": {
+        "en": "Durable and powerful for forwards who play a physical game near the net.",
+        "de": "Haltbar und kraftvoll für Stuermer, die ein physisches Spiel nahe dem Tor spielen.",
+        "fr": "Durable et puissant pour les attaquants qui jouent physiquement pres du filet."
+      },
+      "grinder": {
+        "en": "Tough mid-kick stick for physical players at an accessible price.",
+        "de": "Robuster Mid-Kick-Schläger für physische Spieler zum zugaenglichen Preis.",
+        "fr": "Baton mid-kick robuste pour les joueurs physiques a un prix accessible."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-novium2",
+    "brand": "Warrior",
+    "model": "Novium2",
+    "line": "Novium2",
+    "tier": "performance",
+    "tagline": {
+      "en": "Accessible mid-kick performance",
+      "de": "Zugaengliche Mid-Kick-Performance",
+      "fr": "Performance mid-kick accessible"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "power-forward",
+      "defender",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Solid mid-kick at an accessible price",
+        "Good all-around durability"
+      ],
+      "de": [
+        "Solider Mid-Kick zum zugaenglichen Preis",
+        "Gute Allround-Haltbarkeit"
+      ],
+      "fr": [
+        "Mid-kick solide a un prix accessible",
+        "Bonne durabilite polyvalente"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier feel overall",
+        "Basic blade construction"
+      ],
+      "de": [
+        "Insgesamt schwereres Gefühl",
+        "Einfache Blattkonstruktion"
+      ],
+      "fr": [
+        "Sensation plus lourde dans l'ensemble",
+        "Construction de palette basique"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Mid kick adds power to shots for players who want more than a pure low-kick stick offers.",
+        "de": "Der Mid-Kick fuegt Schüssen Power hinzu für Spieler, die mehr als ein reiner Low-Kick bietet.",
+        "fr": "Le mid-kick ajoute de la puissance pour les joueurs qui veulent plus qu'un simple low-kick."
+      },
+      "defender": {
+        "en": "Affordable mid-kick for recreational defensemen who want reliable slapshot power.",
+        "de": "Erschwinglicher Mid-Kick für Freizeit-Verteidiger, die zuverlässige Slapshot-Power wollen.",
+        "fr": "Mid-kick abordable pour les defenseurs recreatifs qui veulent une puissance de tir fiable."
+      },
+      "power-forward": {
+        "en": "Durable and powerful for physical forwards at a competitive price.",
+        "de": "Haltbar und kraftvoll für physische Stuermer zum Wettkampfpreis.",
+        "fr": "Durable et puissant pour les attaquants physiques a un prix competitif."
+      },
+      "grinder": {
+        "en": "A reliable workhorse for grinders who need toughness and shot power.",
+        "de": "Ein zuverlässiger Arbeiterschläger für Grinder, die Robustheit und Schusskraft brauchen.",
+        "fr": "Un baton de travail fiable pour les grinders qui ont besoin de robustesse et de puissance."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-covert-qr6-pro",
+    "brand": "Warrior",
+    "model": "Covert QR6 Pro",
+    "line": "Covert",
+    "tier": "elite",
+    "tagline": {
+      "en": "Stealth speed for elite scorers",
+      "de": "Stealth-Geschwindigkeit für Elite-Torschützen",
+      "fr": "Vitesse furtive pour les marqueurs d'elite"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Elite Covert quick-release technology",
+        "Excellent puck feel and control",
+        "Lightweight construction"
+      ],
+      "de": [
+        "Elite-Covert-Schnellschusstechnologie",
+        "Hervorragendes Puckgefühl und Kontrolle",
+        "Leichte Bauweise"
+      ],
+      "fr": [
+        "Technologie Covert de tir rapide d'elite",
+        "Excellent feeling et controle",
+        "Construction legere"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Less slapshot power than mid-kick models",
+        "Elite price point"
+      ],
+      "de": [
+        "Weniger Slapshot-Power als Mid-Kick-Modelle",
+        "Elite-Preis"
+      ],
+      "fr": [
+        "Moins de puissance en tir frappe que les modeles mid-kick",
+        "Prix elite"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Covert's low kick delivers stealthy quick releases that catch goalies off guard.",
+        "de": "Coverts Low-Kick liefert heimliche Schnellschüsse, die Torhüter überraschen.",
+        "fr": "Le low kick Covert offre des tirs rapides furtifs qui surprennent les gardiens."
+      },
+      "defender": {
+        "en": "Light and quick for defensemen who need fast outlet passes and sneaky point shots.",
+        "de": "Leicht und schnell für Verteidiger, die schnelle Befreiungspaesse und listige Schlagschüsse brauchen.",
+        "fr": "Leger et rapide pour les defenseurs qui ont besoin de passes rapides et de tirs sournois."
+      },
+      "power-forward": {
+        "en": "Quick release from tight areas near the crease gives you a scoring edge in traffic.",
+        "de": "Schneller Abzug aus engen Bereichen vor dem Tor gibt dir einen Torvorteil im Gedraenge.",
+        "fr": "Le tir rapide des zones etroites pres de l'enclave donne un avantage pour marquer."
+      },
+      "grinder": {
+        "en": "Responsive blade makes quick plays and redirections effective in high-traffic areas.",
+        "de": "Reaktives Blatt macht schnelle Spielzuege und Umlenkungen in Kampfzonen effektiv.",
+        "fr": "Palette reactive pour des jeux rapides et deviations efficaces dans les zones de trafic."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-covert-qr6",
+    "brand": "Warrior",
+    "model": "Covert QR6",
+    "line": "Covert",
+    "tier": "performance",
+    "tagline": {
+      "en": "Quick and stealthy at a competitive price",
+      "de": "Schnell und heimlich zum Wettkampfpreis",
+      "fr": "Rapide et furtif a un prix competitif"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Covert quick release at a performance price",
+        "Good durability for regular play"
+      ],
+      "de": [
+        "Covert-Schnellschuss zum Performance-Preis",
+        "Gute Haltbarkeit für regelmaessiges Spiel"
+      ],
+      "fr": [
+        "Tir rapide Covert a un prix performance",
+        "Bonne durabilite pour le jeu regulier"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than the QR6 Pro",
+        "Less refined blade feel"
+      ],
+      "de": [
+        "Schwerer als der QR6 Pro",
+        "Weniger feines Blattgefühl"
+      ],
+      "fr": [
+        "Plus lourd que le QR6 Pro",
+        "Sensation de palette moins raffinee"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Low kick delivers the quick release snipers need at a competitive price point.",
+        "de": "Der Low-Kick liefert den Schnellabzug für Scharfschützen zum Wettkampfpreis.",
+        "fr": "Le low kick offre le tir rapide des snipers a un prix competitif."
+      },
+      "defender": {
+        "en": "Quick and reliable for defensemen in competitive leagues.",
+        "de": "Schnell und zuverlässig für Verteidiger in Wettkampfligen.",
+        "fr": "Rapide et fiable pour les defenseurs en ligues competitives."
+      },
+      "power-forward": {
+        "en": "Durable enough for physical play with a quick release for scoring chances.",
+        "de": "Haltbar genug für physisches Spiel mit Schnellabzug für Torchancen.",
+        "fr": "Assez durable pour le jeu physique avec un tir rapide pour les occasions de marquer."
+      },
+      "grinder": {
+        "en": "Reliable and tough for players who need a stick that handles regular physical use.",
+        "de": "Zuverlässig und robust für Spieler, die einen Schläger für regelmaessiges physisches Spiel brauchen.",
+        "fr": "Fiable et robuste pour les joueurs qui ont besoin d'un baton pour l'usage physique regulier."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-covert-qr6-rev",
+    "brand": "Warrior",
+    "model": "Covert QR6 Rev",
+    "line": "Covert",
+    "tier": "performance",
+    "tagline": {
+      "en": "Revised Covert for refined performance",
+      "de": "Überarbeiteter Covert für verfeinerte Performance",
+      "fr": "Covert revise pour une performance raffinee"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Refined Covert performance feel",
+        "Good balance of weight and durability"
+      ],
+      "de": [
+        "Verfeinertes Covert-Performance-Gefühl",
+        "Gute Balance aus Gewicht und Haltbarkeit"
+      ],
+      "fr": [
+        "Sensation Covert performance raffinee",
+        "Bon equilibre entre poids et durabilite"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Mid-tier weight",
+        "Not as responsive as the QR6 Pro"
+      ],
+      "de": [
+        "Mittleres Gewicht",
+        "Nicht so reaktionsschnell wie der QR6 Pro"
+      ],
+      "fr": [
+        "Poids de milieu de gamme",
+        "Pas aussi reactif que le QR6 Pro"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Refined low kick offers a smooth, consistent quick release for competitive snipers.",
+        "de": "Der verfeinerte Low-Kick bietet einen gleichmässigen Schnellabzug für Wettkampf-Scharfschützen.",
+        "fr": "Le low kick raffine offre un tir rapide fluide et constant pour les snipers competitifs."
+      },
+      "defender": {
+        "en": "Consistent performance for defensemen who value reliable passing and shooting.",
+        "de": "Konstante Performance für Verteidiger, die zuverlässiges Passen und Schiessen schaetzen.",
+        "fr": "Performance constante pour les defenseurs qui valorisent passes et tirs fiables."
+      },
+      "power-forward": {
+        "en": "Good balance of power and control for forwards in competitive play.",
+        "de": "Gute Balance aus Power und Kontrolle für Stuermer im Wettkampf.",
+        "fr": "Bon equilibre entre puissance et controle pour les attaquants en jeu competitif."
+      },
+      "grinder": {
+        "en": "Dependable stick for grinders who want consistent performance every shift.",
+        "de": "Zuverlässiger Schläger für Grinder, die konstante Performance bei jedem Wechsel wollen.",
+        "fr": "Baton fiable pour les grinders qui veulent une performance constante a chaque presence."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-covert-qr6-team",
+    "brand": "Warrior",
+    "model": "Covert QR6 Team",
+    "line": "Covert",
+    "tier": "entry",
+    "tagline": {
+      "en": "Covert speed for team players",
+      "de": "Covert-Geschwindigkeit für Teamspieler",
+      "fr": "Vitesse Covert pour les joueurs d'equipe"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "grinder",
+      "defender"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Affordable Covert quick-release technology",
+        "Durable for entry-level play",
+        "Good team-use value"
+      ],
+      "de": [
+        "Erschwingliche Covert-Schnellschusstechnologie",
+        "Haltbar für den Einstieg",
+        "Guter Wert für Teamnutzung"
+      ],
+      "fr": [
+        "Technologie Covert de tir rapide abordable",
+        "Durable pour le jeu d'entree",
+        "Bon rapport qualite-prix pour l'equipe"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than higher-tier Covert models",
+        "Basic blade construction"
+      ],
+      "de": [
+        "Schwerer als höhere Covert-Modelle",
+        "Einfache Blattkonstruktion"
+      ],
+      "fr": [
+        "Plus lourd que les modeles Covert superieurs",
+        "Construction de palette basique"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Affordable low kick for beginners and team use with decent quick-release capability.",
+        "de": "Erschwinglicher Low-Kick für Anfänger und Teamnutzung mit anstaendigem Schnellabzug.",
+        "fr": "Low kick abordable pour debutants et usage d'equipe avec une capacite de tir rapide correcte."
+      },
+      "defender": {
+        "en": "Budget-friendly option for team defensemen and recreational players.",
+        "de": "Budgetfreundliche Option für Team-Verteidiger und Freizeitspieler.",
+        "fr": "Option economique pour les defenseurs d'equipe et joueurs recreatifs."
+      },
+      "power-forward": {
+        "en": "Durable and affordable for physical players in entry-level leagues.",
+        "de": "Haltbar und erschwinglich für physische Spieler in Einstiegsligen.",
+        "fr": "Durable et abordable pour les joueurs physiques en ligues d'entree."
+      },
+      "grinder": {
+        "en": "Great value team stick for grinders who go through sticks regularly.",
+        "de": "Tolles Preis-Leistungs-Verhaeltnis für Grinder, die regelmaessig Schläger verbrauchen.",
+        "fr": "Excellent rapport qualite-prix pour les grinders qui usent regulierement des batons."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "warrior-rise",
+    "brand": "Warrior",
+    "model": "Rise",
+    "line": "Rise",
+    "tier": "entry",
+    "tagline": {
+      "en": "The perfect beginner's all-around stick",
+      "de": "Der perfekte Allround-Schläger für Anfänger",
+      "fr": "Le baton polyvalent parfait pour debutants"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "W03",
+      "W28",
+      "W88",
+      "W16"
+    ],
+    "recBlade": {
+      "sniper": "W28",
+      "defender": "W03",
+      "power-forward": "W03",
+      "grinder": "W88"
+    },
+    "pros": {
+      "en": [
+        "Very affordable all-around stick",
+        "Forgiving mid-kick for beginners",
+        "Durable construction for learning"
+      ],
+      "de": [
+        "Sehr erschwinglicher Allround-Schläger",
+        "Verzeihender Mid-Kick für Anfänger",
+        "Haltbare Bauweise zum Lernen"
+      ],
+      "fr": [
+        "Baton polyvalent tres abordable",
+        "Mid-kick indulgent pour debutants",
+        "Construction durable pour l'apprentissage"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Heavier than performance-level sticks",
+        "Basic materials and feel"
+      ],
+      "de": [
+        "Schwerer als Performance-Schläger",
+        "Einfache Materialien und Gefühl"
+      ],
+      "fr": [
+        "Plus lourd que les batons performance",
+        "Materiaux et sensation basiques"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "Forgiving mid kick helps beginners learn to load the shaft and develop shot technique.",
+        "de": "Der verzeihende Mid-Kick hilft Anfängern, das Laden des Schafts und die Schusstechnik zu entwickeln.",
+        "fr": "Le mid-kick indulgent aide les debutants a apprendre a charger la tige et developper leur technique."
+      },
+      "defender": {
+        "en": "An ideal first stick for new defensemen — forgiving, durable, and affordable.",
+        "de": "Ein idealer erster Schläger für neue Verteidiger — verzeihend, haltbar und erschwinglich.",
+        "fr": "Un premier baton ideal pour les nouveaux defenseurs — indulgent, durable et abordable."
+      },
+      "power-forward": {
+        "en": "Tough enough to survive a beginner's physical play at a price that makes sense.",
+        "de": "Robust genug für das physische Spiel eines Anfängers zum sinnvollen Preis.",
+        "fr": "Assez robuste pour le jeu physique d'un debutant a un prix sense."
+      },
+      "grinder": {
+        "en": "The most budget-friendly option for players just starting out who need a durable, forgiving stick.",
+        "de": "Die budgetfreundlichste Option für Einsteiger, die einen haltbaren, verzeihenden Schläger brauchen.",
+        "fr": "L'option la plus economique pour les joueurs debutants qui ont besoin d'un baton durable et indulgent."
+      }
+    },
+    "officialUrl": "https://www.warrior.com/hockey/sticks/",
+    "lastScraped": "2026-04-02T08:41:37.559Z"
+  },
+  {
+    "id": "bauer-nexus-performance",
+    "brand": "Bauer",
+    "model": "NEXUS PERFORMANCE",
+    "line": "NEXUS",
+    "tier": "mid",
+    "tagline": {
+      "en": "Bauer NEXUS PERFORMANCE",
+      "de": "Bauer NEXUS PERFORMANCE",
+      "fr": "Bauer NEXUS PERFORMANCE"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "P28",
+      "P92"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The Bauer NEXUS PERFORMANCE for snipers.",
+        "de": "Der Bauer NEXUS PERFORMANCE für Sniper.",
+        "fr": "Le Bauer NEXUS PERFORMANCE pour les snipers."
+      },
+      "defender": {
+        "en": "The Bauer NEXUS PERFORMANCE for defenders.",
+        "de": "Der Bauer NEXUS PERFORMANCE für Verteidiger.",
+        "fr": "Le Bauer NEXUS PERFORMANCE pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The Bauer NEXUS PERFORMANCE for power forwards.",
+        "de": "Der Bauer NEXUS PERFORMANCE für Power Forwards.",
+        "fr": "Le Bauer NEXUS PERFORMANCE pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The Bauer NEXUS PERFORMANCE for grinders.",
+        "de": "Der Bauer NEXUS PERFORMANCE für Grinder.",
+        "fr": "Le Bauer NEXUS PERFORMANCE pour les broyeurs."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/products/bauer-nexus-performance-stick",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "bauer-twitch",
+    "brand": "Bauer",
+    "model": "TWITCH",
+    "line": "TWITCH",
+    "tier": "mid",
+    "tagline": {
+      "en": "Bauer TWITCH",
+      "de": "Bauer TWITCH",
+      "fr": "Bauer TWITCH"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "P92",
+      "P28"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The Bauer TWITCH for snipers.",
+        "de": "Der Bauer TWITCH für Sniper.",
+        "fr": "Le Bauer TWITCH pour les snipers."
+      },
+      "defender": {
+        "en": "The Bauer TWITCH for defenders.",
+        "de": "Der Bauer TWITCH für Verteidiger.",
+        "fr": "Le Bauer TWITCH pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The Bauer TWITCH for power forwards.",
+        "de": "Der Bauer TWITCH für Power Forwards.",
+        "fr": "Le Bauer TWITCH pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The Bauer TWITCH for grinders.",
+        "de": "Der Bauer TWITCH für Grinder.",
+        "fr": "Le Bauer TWITCH pour les broyeurs."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/products/bauer-twitch-limted-edition-stick-senior",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "bauer-vapor",
+    "brand": "Bauer",
+    "model": "VAPOR",
+    "line": "VAPOR",
+    "tier": "mid",
+    "tagline": {
+      "en": "Bauer VAPOR",
+      "de": "Bauer VAPOR",
+      "fr": "Bauer VAPOR"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "P92"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The Bauer VAPOR for snipers.",
+        "de": "Der Bauer VAPOR für Sniper.",
+        "fr": "Le Bauer VAPOR pour les snipers."
+      },
+      "defender": {
+        "en": "The Bauer VAPOR for defenders.",
+        "de": "Der Bauer VAPOR für Verteidiger.",
+        "fr": "Le Bauer VAPOR pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The Bauer VAPOR for power forwards.",
+        "de": "Der Bauer VAPOR für Power Forwards.",
+        "fr": "Le Bauer VAPOR pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The Bauer VAPOR for grinders.",
+        "de": "Der Bauer VAPOR für Grinder.",
+        "fr": "Le Bauer VAPOR pour les broyeurs."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/products/bauer-vapor-junior-grip-stick",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "bauer-vapor-x4",
+    "brand": "Bauer",
+    "model": "VAPOR X4",
+    "line": "VAPOR",
+    "tier": "mid",
+    "tagline": {
+      "en": "Bauer VAPOR X4",
+      "de": "Bauer VAPOR X4",
+      "fr": "Bauer VAPOR X4"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "P92",
+      "P28",
+      "P88"
+    ],
+    "recBlade": {
+      "sniper": "P28",
+      "defender": "P92",
+      "power-forward": "P92",
+      "grinder": "P88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The Bauer VAPOR X4 for snipers.",
+        "de": "Der Bauer VAPOR X4 für Sniper.",
+        "fr": "Le Bauer VAPOR X4 pour les snipers."
+      },
+      "defender": {
+        "en": "The Bauer VAPOR X4 for defenders.",
+        "de": "Der Bauer VAPOR X4 für Verteidiger.",
+        "fr": "Le Bauer VAPOR X4 pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The Bauer VAPOR X4 for power forwards.",
+        "de": "Der Bauer VAPOR X4 für Power Forwards.",
+        "fr": "Le Bauer VAPOR X4 pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The Bauer VAPOR X4 for grinders.",
+        "de": "Der Bauer VAPOR X4 für Grinder.",
+        "fr": "Le Bauer VAPOR X4 pour les broyeurs."
+      }
+    },
+    "officialUrl": "https://www.bauer.com/products/vapor-x4-stick-junior",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-xf-ghost-stick",
+    "brand": "CCM",
+    "model": "XF Ghost Stick",
+    "line": "XF",
+    "tier": "pro",
+    "tagline": {
+      "en": "CCM XF Ghost Stick",
+      "de": "CCM XF Ghost Stick",
+      "fr": "CCM XF Ghost Stick"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM XF Ghost Stick for snipers.",
+        "de": "Der CCM XF Ghost Stick für Sniper.",
+        "fr": "Le CCM XF Ghost Stick pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM XF Ghost Stick for defenders.",
+        "de": "Der CCM XF Ghost Stick für Verteidiger.",
+        "fr": "Le CCM XF Ghost Stick pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM XF Ghost Stick for power forwards.",
+        "de": "Der CCM XF Ghost Stick für Power Forwards.",
+        "fr": "Le CCM XF Ghost Stick pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM XF Ghost Stick for grinders.",
+        "de": "Der CCM XF Ghost Stick für Grinder.",
+        "fr": "Le CCM XF Ghost Stick pour les broyeurs."
+      }
+    },
+    "officialUrl": "/en-se/sticks/view-all-sticks/tacks-sticks/HSXFGH25WH-IN.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-jetspeed-ft8-long",
+    "brand": "CCM",
+    "model": "Jetspeed FT8 LONG",
+    "line": "Jetspeed",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Jetspeed FT8 LONG",
+      "de": "CCM Jetspeed FT8 LONG",
+      "fr": "CCM Jetspeed FT8 LONG"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Jetspeed FT8 LONG for snipers.",
+        "de": "Der CCM Jetspeed FT8 LONG für Sniper.",
+        "fr": "Le CCM Jetspeed FT8 LONG pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Jetspeed FT8 LONG for defenders.",
+        "de": "Der CCM Jetspeed FT8 LONG für Verteidiger.",
+        "fr": "Le CCM Jetspeed FT8 LONG pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Jetspeed FT8 LONG for power forwards.",
+        "de": "Der CCM Jetspeed FT8 LONG für Power Forwards.",
+        "fr": "Le CCM Jetspeed FT8 LONG pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Jetspeed FT8 LONG for grinders.",
+        "de": "Der CCM Jetspeed FT8 LONG für Grinder.",
+        "fr": "Le CCM Jetspeed FT8 LONG pour les broyeurs."
+      }
+    },
+    "officialUrl": "/en-se/sticks/view-all-sticks/jetspeed-sticks/HSFT8L-SR.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-jetspeed-ft8s",
+    "brand": "CCM",
+    "model": "Jetspeed FT8S",
+    "line": "Jetspeed",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Jetspeed FT8S",
+      "de": "CCM Jetspeed FT8S",
+      "fr": "CCM Jetspeed FT8S"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Jetspeed FT8S for snipers.",
+        "de": "Der CCM Jetspeed FT8S für Sniper.",
+        "fr": "Le CCM Jetspeed FT8S pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Jetspeed FT8S for defenders.",
+        "de": "Der CCM Jetspeed FT8S für Verteidiger.",
+        "fr": "Le CCM Jetspeed FT8S pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Jetspeed FT8S for power forwards.",
+        "de": "Der CCM Jetspeed FT8S für Power Forwards.",
+        "fr": "Le CCM Jetspeed FT8S pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Jetspeed FT8S for grinders.",
+        "de": "Der CCM Jetspeed FT8S für Grinder.",
+        "fr": "Le CCM Jetspeed FT8S pour les broyeurs."
+      }
+    },
+    "officialUrl": "/en-se/sticks/view-all-sticks/jetspeed-sticks/HSFTS8-SR.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-jetspeed-ftw-pro",
+    "brand": "CCM",
+    "model": "Jetspeed FTW Pro",
+    "line": "Jetspeed",
+    "tier": "pro",
+    "tagline": {
+      "en": "CCM Jetspeed FTW Pro",
+      "de": "CCM Jetspeed FTW Pro",
+      "fr": "CCM Jetspeed FTW Pro"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "competitive",
+      "elite"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Jetspeed FTW Pro for snipers.",
+        "de": "Der CCM Jetspeed FTW Pro für Sniper.",
+        "fr": "Le CCM Jetspeed FTW Pro pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Jetspeed FTW Pro for defenders.",
+        "de": "Der CCM Jetspeed FTW Pro für Verteidiger.",
+        "fr": "Le CCM Jetspeed FTW Pro pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Jetspeed FTW Pro for power forwards.",
+        "de": "Der CCM Jetspeed FTW Pro für Power Forwards.",
+        "fr": "Le CCM Jetspeed FTW Pro pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Jetspeed FTW Pro for grinders.",
+        "de": "Der CCM Jetspeed FTW Pro für Grinder.",
+        "fr": "Le CCM Jetspeed FTW Pro pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Age-Group/Intermediate/HSFTWP26B-IN.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-jet-speed-ft",
+    "brand": "CCM",
+    "model": "Jet Speed FT",
+    "line": "Jet",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Jet Speed FT",
+      "de": "CCM Jet Speed FT",
+      "fr": "CCM Jet Speed FT"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Jet Speed FT for snipers.",
+        "de": "Der CCM Jet Speed FT für Sniper.",
+        "fr": "Le CCM Jet Speed FT pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Jet Speed FT for defenders.",
+        "de": "Der CCM Jet Speed FT für Verteidiger.",
+        "fr": "Le CCM Jet Speed FT pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Jet Speed FT for power forwards.",
+        "de": "Der CCM Jet Speed FT für Power Forwards.",
+        "fr": "Le CCM Jet Speed FT pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Jet Speed FT for grinders.",
+        "de": "Der CCM Jet Speed FT für Grinder.",
+        "fr": "Le CCM Jet Speed FT pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Shop-All-Sticks/Jetspeed/HSJS7Y-YT.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-jetspeed-20",
+    "brand": "CCM",
+    "model": "Jetspeed 20",
+    "line": "Jetspeed",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Jetspeed 20",
+      "de": "CCM Jetspeed 20",
+      "fr": "CCM Jetspeed 20"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Jetspeed 20 for snipers.",
+        "de": "Der CCM Jetspeed 20 für Sniper.",
+        "fr": "Le CCM Jetspeed 20 pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Jetspeed 20 for defenders.",
+        "de": "Der CCM Jetspeed 20 für Verteidiger.",
+        "fr": "Le CCM Jetspeed 20 pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Jetspeed 20 for power forwards.",
+        "de": "Der CCM Jetspeed 20 für Power Forwards.",
+        "fr": "Le CCM Jetspeed 20 pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Jetspeed 20 for grinders.",
+        "de": "Der CCM Jetspeed 20 für Grinder.",
+        "fr": "Le CCM Jetspeed 20 pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Shop-All-Sticks/Jetspeed/HSJ20Y3-YT.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-ultimate-wood",
+    "brand": "CCM",
+    "model": "Ultimate Wood",
+    "line": "Ultimate",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Ultimate Wood",
+      "de": "CCM Ultimate Wood",
+      "fr": "CCM Ultimate Wood"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Ultimate Wood for snipers.",
+        "de": "Der CCM Ultimate Wood für Sniper.",
+        "fr": "Le CCM Ultimate Wood pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Ultimate Wood for defenders.",
+        "de": "Der CCM Ultimate Wood für Verteidiger.",
+        "fr": "Le CCM Ultimate Wood pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Ultimate Wood for power forwards.",
+        "de": "Der CCM Ultimate Wood für Power Forwards.",
+        "fr": "Le CCM Ultimate Wood pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Ultimate Wood for grinders.",
+        "de": "Der CCM Ultimate Wood für Grinder.",
+        "fr": "Le CCM Ultimate Wood pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Age-Group/Youth/HSULT23-YT.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-ribcor-trigger-9",
+    "brand": "CCM",
+    "model": "Ribcor TRIGGER 9",
+    "line": "Ribcor",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Ribcor TRIGGER 9",
+      "de": "CCM Ribcor TRIGGER 9",
+      "fr": "CCM Ribcor TRIGGER 9"
+    },
+    "kickpoint": "mid-low",
+    "kickpointLabel": "Mid-Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Ribcor TRIGGER 9 for snipers.",
+        "de": "Der CCM Ribcor TRIGGER 9 für Sniper.",
+        "fr": "Le CCM Ribcor TRIGGER 9 pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Ribcor TRIGGER 9 for defenders.",
+        "de": "Der CCM Ribcor TRIGGER 9 für Verteidiger.",
+        "fr": "Le CCM Ribcor TRIGGER 9 pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Ribcor TRIGGER 9 for power forwards.",
+        "de": "Der CCM Ribcor TRIGGER 9 für Power Forwards.",
+        "fr": "Le CCM Ribcor TRIGGER 9 pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Ribcor TRIGGER 9 for grinders.",
+        "de": "Der CCM Ribcor TRIGGER 9 für Grinder.",
+        "fr": "Le CCM Ribcor TRIGGER 9 pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Shop-All-Sticks/Ribcor-Sticks/HSRC9-SR.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-jetspeed-30",
+    "brand": "CCM",
+    "model": "Jetspeed 30",
+    "line": "Jetspeed",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Jetspeed 30",
+      "de": "CCM Jetspeed 30",
+      "fr": "CCM Jetspeed 30"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Jetspeed 30 for snipers.",
+        "de": "Der CCM Jetspeed 30 für Sniper.",
+        "fr": "Le CCM Jetspeed 30 pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Jetspeed 30 for defenders.",
+        "de": "Der CCM Jetspeed 30 für Verteidiger.",
+        "fr": "Le CCM Jetspeed 30 pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Jetspeed 30 for power forwards.",
+        "de": "Der CCM Jetspeed 30 für Power Forwards.",
+        "fr": "Le CCM Jetspeed 30 pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Jetspeed 30 for grinders.",
+        "de": "Der CCM Jetspeed 30 für Grinder.",
+        "fr": "Le CCM Jetspeed 30 pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Shop-All-Sticks/Jetspeed/HSJ30Y3-YT.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-jetspeed-10",
+    "brand": "CCM",
+    "model": "Jetspeed 10",
+    "line": "Jetspeed",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Jetspeed 10",
+      "de": "CCM Jetspeed 10",
+      "fr": "CCM Jetspeed 10"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "beginner",
+      "recreational"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Jetspeed 10 for snipers.",
+        "de": "Der CCM Jetspeed 10 für Sniper.",
+        "fr": "Le CCM Jetspeed 10 pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Jetspeed 10 for defenders.",
+        "de": "Der CCM Jetspeed 10 für Verteidiger.",
+        "fr": "Le CCM Jetspeed 10 pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Jetspeed 10 for power forwards.",
+        "de": "Der CCM Jetspeed 10 für Power Forwards.",
+        "fr": "Le CCM Jetspeed 10 pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Jetspeed 10 for grinders.",
+        "de": "Der CCM Jetspeed 10 für Grinder.",
+        "fr": "Le CCM Jetspeed 10 pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Shop-All-Sticks/Jetspeed/HSJ10Y3-YT.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-jetspeed-ftw",
+    "brand": "CCM",
+    "model": "Jetspeed FTW",
+    "line": "Jetspeed",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Jetspeed FTW",
+      "de": "CCM Jetspeed FTW",
+      "fr": "CCM Jetspeed FTW"
+    },
+    "kickpoint": "low",
+    "kickpointLabel": "Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Jetspeed FTW for snipers.",
+        "de": "Der CCM Jetspeed FTW für Sniper.",
+        "fr": "Le CCM Jetspeed FTW pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Jetspeed FTW for defenders.",
+        "de": "Der CCM Jetspeed FTW für Verteidiger.",
+        "fr": "Le CCM Jetspeed FTW pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Jetspeed FTW for power forwards.",
+        "de": "Der CCM Jetspeed FTW für Power Forwards.",
+        "fr": "Le CCM Jetspeed FTW pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Jetspeed FTW for grinders.",
+        "de": "Der CCM Jetspeed FTW für Grinder.",
+        "fr": "Le CCM Jetspeed FTW pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Age-Group/Intermediate/HSFTW24-IN.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-tacks-xf-70",
+    "brand": "CCM",
+    "model": "Tacks XF 70",
+    "line": "Tacks",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Tacks XF 70",
+      "de": "CCM Tacks XF 70",
+      "fr": "CCM Tacks XF 70"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Tacks XF 70 for snipers.",
+        "de": "Der CCM Tacks XF 70 für Sniper.",
+        "fr": "Le CCM Tacks XF 70 pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Tacks XF 70 for defenders.",
+        "de": "Der CCM Tacks XF 70 für Verteidiger.",
+        "fr": "Le CCM Tacks XF 70 pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Tacks XF 70 for power forwards.",
+        "de": "Der CCM Tacks XF 70 für Power Forwards.",
+        "fr": "Le CCM Tacks XF 70 pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Tacks XF 70 for grinders.",
+        "de": "Der CCM Tacks XF 70 für Grinder.",
+        "fr": "Le CCM Tacks XF 70 pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Shop-All-Sticks/Tacks-Sticks/HSXF70-JR.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-tacks-xf",
+    "brand": "CCM",
+    "model": "Tacks XF",
+    "line": "Tacks",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Tacks XF",
+      "de": "CCM Tacks XF",
+      "fr": "CCM Tacks XF"
+    },
+    "kickpoint": "mid",
+    "kickpointLabel": "Mid Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "defender",
+      "power-forward",
+      "sniper",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Tacks XF for snipers.",
+        "de": "Der CCM Tacks XF für Sniper.",
+        "fr": "Le CCM Tacks XF pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Tacks XF for defenders.",
+        "de": "Der CCM Tacks XF für Verteidiger.",
+        "fr": "Le CCM Tacks XF pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Tacks XF for power forwards.",
+        "de": "Der CCM Tacks XF für Power Forwards.",
+        "fr": "Le CCM Tacks XF pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Tacks XF for grinders.",
+        "de": "Der CCM Tacks XF für Grinder.",
+        "fr": "Le CCM Tacks XF pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Shop-All-Sticks/Tacks-Sticks/HSXF-IN.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  },
+  {
+    "id": "ccm-ribcor-trigger-9k",
+    "brand": "CCM",
+    "model": "Ribcor TRIGGER 9K",
+    "line": "Ribcor",
+    "tier": "mid",
+    "tagline": {
+      "en": "CCM Ribcor TRIGGER 9K",
+      "de": "CCM Ribcor TRIGGER 9K",
+      "fr": "CCM Ribcor TRIGGER 9K"
+    },
+    "kickpoint": "mid-low",
+    "kickpointLabel": "Mid-Low Kick",
+    "sizes": [
+      "junior",
+      "intermediate",
+      "senior"
+    ],
+    "positions": [
+      "sniper",
+      "power-forward",
+      "defender",
+      "grinder"
+    ],
+    "skillLevel": [
+      "recreational",
+      "competitive"
+    ],
+    "bladePatterns": [
+      "T28",
+      "T92",
+      "T88"
+    ],
+    "recBlade": {
+      "sniper": "T28",
+      "defender": "T92",
+      "power-forward": "T92",
+      "grinder": "T88"
+    },
+    "pros": {
+      "en": [
+        "Scraped from official website — details pending review"
+      ],
+      "de": [
+        "Von offizieller Website gescannt — Details werden überprüft"
+      ],
+      "fr": [
+        "Récupéré du site officiel — détails en cours de vérification"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Details pending manual review"
+      ],
+      "de": [
+        "Details werden manuell überprüft"
+      ],
+      "fr": [
+        "Détails en cours de vérification manuelle"
+      ]
+    },
+    "why": {
+      "sniper": {
+        "en": "The CCM Ribcor TRIGGER 9K for snipers.",
+        "de": "Der CCM Ribcor TRIGGER 9K für Sniper.",
+        "fr": "Le CCM Ribcor TRIGGER 9K pour les snipers."
+      },
+      "defender": {
+        "en": "The CCM Ribcor TRIGGER 9K for defenders.",
+        "de": "Der CCM Ribcor TRIGGER 9K für Verteidiger.",
+        "fr": "Le CCM Ribcor TRIGGER 9K pour les défenseurs."
+      },
+      "power-forward": {
+        "en": "The CCM Ribcor TRIGGER 9K for power forwards.",
+        "de": "Der CCM Ribcor TRIGGER 9K für Power Forwards.",
+        "fr": "Le CCM Ribcor TRIGGER 9K pour les avants de puissance."
+      },
+      "grinder": {
+        "en": "The CCM Ribcor TRIGGER 9K for grinders.",
+        "de": "Der CCM Ribcor TRIGGER 9K für Grinder.",
+        "fr": "Le CCM Ribcor TRIGGER 9K pour les broyeurs."
+      }
+    },
+    "officialUrl": "/Sticks/Shop-All-Sticks/Ribcor-Sticks/HSRC9K-IN.html",
+    "lastScraped": "2026-04-02T08:41:37.560Z",
+    "autoAdded": true
+  }
+]

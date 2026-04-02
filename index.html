@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StickFinder — Hockey Stick Advisor</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Find the perfect hockey stick for your player. Enter height, weight, age and playing style — get the top 7 stick recommendations with links to the cheapest stores across Europe.">
+  <meta name="keywords" content="hockey stick, ice hockey, Bauer, CCM, True, Warrior, stick finder, hockey equipment, junior hockey, youth hockey">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="StickFinder">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="canonical" href="https://www.stickfinder.ch/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="StickFinder — Hockey Stick Advisor">
+  <meta property="og:description" content="Find the perfect hockey stick for your player. Enter height, weight, age and playing style — get the top 7 stick recommendations with links to the cheapest stores across Europe.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.stickfinder.ch/">
+  <meta property="og:image" content="https://www.stickfinder.ch/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="StickFinder — Hockey Stick Advisor">
+  <meta name="twitter:description" content="Find the perfect hockey stick for your player. Enter height, weight, age and playing style — get the top 7 stick recommendations with links to the cheapest stores across Europe.">
+
+  <!-- Favicon & Mobile -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏒</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏒</text></svg>">
+  <link rel="manifest" href="data:application/json,%7B%22name%22%3A%22StickFinder%22%2C%22short_name%22%3A%22StickFinder%22%2C%22start_url%22%3A%22%2F%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%230d1117%22%2C%22theme_color%22%3A%22%230d1117%22%7D">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "StickFinder",
+    "description": "Hockey stick recommendation tool",
+    "url": "https://www.stickfinder.ch",
+    "applicationCategory": "SportsApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CHF" }
+  }
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { font-family: 'Inter', sans-serif; box-sizing: border-box; }
+    body { background: #0d1117; color: #e6edf3; margin: 0; }
+
+    .input-field {
+      background: #161b22; border: 1px solid #30363d; color: #e6edf3;
+      border-radius: 8px; padding: 10px 14px; width: 100%; font-size: 15px;
+      transition: border-color 0.2s, box-shadow 0.2s; appearance: none;
+    }
+    .input-field:focus { outline: none; border-color: #58a6ff; box-shadow: 0 0 0 3px rgba(88,166,255,0.15); }
+    .input-field option { background: #161b22; color: #e6edf3; }
+    select.input-field { cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238b949e' d='M6 8L1 3h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 36px; }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #1f6feb, #58a6ff); color: white;
+      border: none; border-radius: 8px; padding: 14px 32px; font-size: 16px;
+      font-weight: 700; cursor: pointer; transition: all 0.2s; width: 100%;
+      letter-spacing: 0.3px;
+    }
+    .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(88,166,255,0.35); }
+    .btn-primary:active { transform: translateY(0); }
+
+    .btn-secondary {
+      background: #21262d; border: 1px solid #30363d; color: #8b949e;
+      border-radius: 8px; padding: 8px 18px; font-size: 13px; font-weight: 600;
+      cursor: pointer; transition: all 0.15s;
+    }
+    .btn-secondary:hover { background: #30363d; color: #e6edf3; }
+
+    .card {
+      background: #161b22; border: 1px solid #30363d; border-radius: 12px;
+      padding: 24px; transition: all 0.2s;
+    }
+
+    .stick-card {
+      background: #161b22; border: 1px solid #30363d; border-radius: 12px;
+      padding: 20px; transition: all 0.2s;
+      animation: fadeInUp 0.45s ease both;
+    }
+    .stick-card:nth-child(1) { animation-delay: 0.05s; }
+    .stick-card:nth-child(2) { animation-delay: 0.12s; }
+    .stick-card:nth-child(3) { animation-delay: 0.19s; }
+    .stick-card:nth-child(4) { animation-delay: 0.26s; }
+    .stick-card:nth-child(5) { animation-delay: 0.33s; }
+    .stick-card:nth-child(6) { animation-delay: 0.40s; }
+    .stick-card:nth-child(7) { animation-delay: 0.47s; }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .tag {
+      display: inline-flex; align-items: center; padding: 3px 10px;
+      border-radius: 20px; font-size: 12px; font-weight: 600;
+    }
+
+    .rank-badge {
+      width: 34px; height: 34px; border-radius: 50%; display: flex;
+      align-items: center; justify-content: center; font-weight: 800;
+      font-size: 14px; flex-shrink: 0;
+    }
+
+    .store-link {
+      display: inline-flex; align-items: center; gap: 6px; padding: 7px 13px;
+      background: #21262d; border: 1px solid #30363d; border-radius: 8px;
+      text-decoration: none; color: #c9d1d9; font-size: 12px; font-weight: 500;
+      transition: all 0.15s; white-space: nowrap;
+    }
+    .store-link:hover { background: #30363d; border-color: #58a6ff; color: #58a6ff; }
+    .store-link .import-badge {
+      background: rgba(248,113,113,0.15); color: #f87171;
+      padding: 1px 6px; border-radius: 10px; font-size: 10px; font-weight: 700;
+    }
+
+    .spec-box {
+      background: #21262d; border-radius: 8px; padding: 10px 12px; text-align: center;
+    }
+
+    .lang-btn {
+      background: transparent; border: 1px solid transparent; color: #8b949e;
+      border-radius: 6px; padding: 5px 10px; font-size: 13px; font-weight: 600;
+      cursor: pointer; transition: all 0.15s;
+    }
+    .lang-btn:hover { color: #e6edf3; border-color: #30363d; }
+    .lang-btn.active { color: #58a6ff; background: rgba(88,166,255,0.1); border-color: #58a6ff; }
+
+    .progress-bar { height: 4px; background: #21262d; border-radius: 2px; overflow: hidden; margin-top: 4px; }
+    .progress-fill { height: 100%; border-radius: 2px; transition: width 0.8s ease; }
+
+    .summary-bar {
+      background: linear-gradient(135deg, #161b22, #1c2333);
+      border: 1px solid #30363d; border-radius: 12px; padding: 16px 20px;
+      animation: fadeInUp 0.3s ease both;
+    }
+
+    .section-hidden { display: none !important; }
+
+    @media (max-width: 640px) {
+      .card { padding: 16px; }
+      .stick-card { padding: 16px; }
+      .grid-form { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header style="background:#161b22; border-bottom:1px solid #30363d; position:sticky; top:0; z-index:100;">
+  <div style="max-width:800px; margin:0 auto; padding:12px 16px; display:flex; align-items:center; justify-content:space-between;">
+    <div style="display:flex; align-items:center; gap:10px;">
+      <span style="font-size:26px; line-height:1;">🏒</span>
+      <div>
+        <span class="text-white font-black text-lg" style="letter-spacing:-0.5px;">StickFinder</span>
+        <span style="color:#58a6ff; font-weight:700; font-size:11px; margin-left:6px; background:rgba(88,166,255,0.1); padding:2px 7px; border-radius:10px; border:1px solid rgba(88,166,255,0.3);">PRO</span>
+      </div>
+    </div>
+    <div style="display:flex; gap:4px;" id="lang-switcher">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('de')">DE</button>
+      <button class="lang-btn" onclick="setLang('fr')">FR</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div style="background:linear-gradient(180deg,#161b22 0%,#0d1117 100%); border-bottom:1px solid #30363d; padding:40px 16px 36px;">
+  <div style="max-width:800px; margin:0 auto; text-align:center;">
+    <h1 class="font-black" id="hero-title" style="font-size:clamp(26px,5vw,42px); color:#e6edf3; line-height:1.15; margin-bottom:12px;">
+      Find Your Perfect Hockey Stick
+    </h1>
+    <p id="hero-sub" style="color:#8b949e; font-size:clamp(14px,2.5vw,17px); max-width:540px; margin:0 auto; line-height:1.6;">
+      Enter the player's details and we'll recommend the top 7 sticks — with links to the cheapest stores across Europe and North America.
+    </p>
+    <p id="db-updated" style="color:#484f58; font-size:11px; margin-top:16px; display:none;"></p>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main style="max-width:800px; margin:0 auto; padding:28px 16px 60px;">
+
+  <!-- FORM SECTION -->
+  <div id="form-section">
+    <div class="card" style="max-width:720px; margin:0 auto;">
+      <h2 class="font-bold text-lg mb-5" id="form-title" style="color:#e6edf3;">Player Profile</h2>
+
+      <div class="grid-form" style="display:grid; grid-template-columns:repeat(2,1fr); gap:16px;">
+
+        <!-- Height -->
+        <div>
+          <label class="block text-sm font-semibold mb-2" id="lbl-height" style="color:#8b949e;">Height</label>
+          <div style="display:flex; gap:8px;">
+            <input type="number" id="inp-height" class="input-field" placeholder="150" min="80" max="220" style="flex:1;">
+            <select id="inp-height-unit" class="input-field" style="width:70px; padding-right:8px;">
+              <option value="cm">cm</option>
+              <option value="in">in</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Weight -->
+        <div>
+          <label class="block text-sm font-semibold mb-2" id="lbl-weight" style="color:#8b949e;">Weight</label>
+          <div style="display:flex; gap:8px;">
+            <input type="number" id="inp-weight" class="input-field" placeholder="40" min="15" max="130" style="flex:1;">
+            <select id="inp-weight-unit" class="input-field" style="width:70px; padding-right:8px;">
+              <option value="kg">kg</option>
+              <option value="lbs">lbs</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Age -->
+        <div>
+          <label class="block text-sm font-semibold mb-2" id="lbl-age" style="color:#8b949e;">Age</label>
+          <input type="number" id="inp-age" class="input-field" placeholder="11" min="4" max="60">
+        </div>
+
+        <!-- Position -->
+        <div>
+          <label class="block text-sm font-semibold mb-2" id="lbl-position" style="color:#8b949e;">Player Style</label>
+          <select id="inp-position" class="input-field">
+            <option value="" id="opt-pos-default">Select style...</option>
+            <option value="sniper" id="opt-sniper">🎯 Sniper — Quick release, wrist shots</option>
+            <option value="defender" id="opt-defender">🛡️ Defender — Slapshots, hard passes</option>
+            <option value="power-forward" id="opt-pf">💪 Power Forward — Physical, strong</option>
+            <option value="grinder" id="opt-grinder">⚔️ Grinder / Net-Front Player</option>
+          </select>
+        </div>
+
+        <!-- Skill -->
+        <div>
+          <label class="block text-sm font-semibold mb-2" id="lbl-skill" style="color:#8b949e;">Skill Level</label>
+          <select id="inp-skill" class="input-field">
+            <option value="" id="opt-skill-default">Select level...</option>
+            <option value="beginner" id="opt-beginner">⭐ Beginner — Just starting out</option>
+            <option value="recreational" id="opt-recreational">⭐⭐ Recreational — Plays for fun</option>
+            <option value="competitive" id="opt-competitive">⭐⭐⭐ Competitive — League / Club</option>
+            <option value="elite" id="opt-elite">⭐⭐⭐⭐ Elite — AAA / Top-level youth</option>
+          </select>
+        </div>
+
+        <!-- Country -->
+        <div>
+          <label class="block text-sm font-semibold mb-2" id="lbl-country" style="color:#8b949e;">Country</label>
+          <select id="inp-country" class="input-field">
+            <option value="">Select country...</option>
+            <optgroup label="🌍 Europe">
+              <option value="AT">🇦🇹 Austria</option>
+              <option value="BE">🇧🇪 Belgium</option>
+              <option value="HR">🇭🇷 Croatia</option>
+              <option value="CZ">🇨🇿 Czech Republic</option>
+              <option value="DK">🇩🇰 Denmark</option>
+              <option value="EE">🇪🇪 Estonia</option>
+              <option value="FI">🇫🇮 Finland</option>
+              <option value="FR">🇫🇷 France</option>
+              <option value="DE">🇩🇪 Germany</option>
+              <option value="HU">🇭🇺 Hungary</option>
+              <option value="IT">🇮🇹 Italy</option>
+              <option value="LV">🇱🇻 Latvia</option>
+              <option value="LT">🇱🇹 Lithuania</option>
+              <option value="NL">🇳🇱 Netherlands</option>
+              <option value="NO">🇳🇴 Norway</option>
+              <option value="PL">🇵🇱 Poland</option>
+              <option value="SK">🇸🇰 Slovakia</option>
+              <option value="SI">🇸🇮 Slovenia</option>
+              <option value="ES">🇪🇸 Spain</option>
+              <option value="SE">🇸🇪 Sweden</option>
+              <option value="CH">🇨🇭 Switzerland</option>
+              <option value="GB">🇬🇧 United Kingdom</option>
+            </optgroup>
+            <optgroup label="🌎 North America">
+              <option value="CA">🇨🇦 Canada</option>
+              <option value="US">🇺🇸 United States</option>
+            </optgroup>
+          </select>
+        </div>
+
+      </div>
+
+      <div style="margin-top:20px;">
+        <button class="btn-primary" onclick="findSticks()">
+          <span id="btn-find-text">🏒 Find My Perfect Stick</span>
+        </button>
+      </div>
+      <p id="error-msg" style="color:#f87171; font-size:13px; margin-top:10px; display:none;"></p>
+    </div>
+  </div>
+
+  <!-- RESULTS SECTION -->
+  <div id="results-section" class="section-hidden">
+
+    <!-- Summary Bar -->
+    <div class="summary-bar mb-6" id="summary-bar"></div>
+
+    <!-- Top bar -->
+    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; flex-wrap:wrap; gap:8px;">
+      <h2 class="font-bold text-xl" id="results-title" style="color:#e6edf3;">Top 7 Recommended Sticks</h2>
+      <button class="btn-secondary" onclick="resetForm()" id="btn-edit">← Edit Profile</button>
+    </div>
+
+    <!-- Stick Cards -->
+    <div id="sticks-container" style="display:flex; flex-direction:column; gap:14px;"></div>
+
+    <!-- Disclaimer -->
+    <p id="disclaimer-text" style="color:#484f58; font-size:11px; text-align:center; margin-top:28px; line-height:1.6; max-width:600px; margin-left:auto; margin-right:auto;">
+      Store links open search results on third-party websites. Prices are approximate and may vary. For stores outside your country, import duties and VAT may apply — always check before ordering.
+    </p>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="background:#0b0e14; border-top:1px solid #30363d; padding:32px 16px 28px; margin-top:0;">
+  <div style="max-width:800px; margin:0 auto; text-align:center;">
+    <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-bottom:14px;">
+      <a href="impressum.html" style="color:#8b949e; text-decoration:none; font-size:13px; font-weight:500; transition:color 0.15s;" onmouseover="this.style.color='#58a6ff'" onmouseout="this.style.color='#8b949e'">Impressum</a>
+      <span style="color:#30363d; font-size:13px;">|</span>
+      <a href="datenschutz.html" style="color:#8b949e; text-decoration:none; font-size:13px; font-weight:500; transition:color 0.15s;" onmouseover="this.style.color='#58a6ff'" onmouseout="this.style.color='#8b949e'">Datenschutz / Privacy</a>
+    </div>
+    <p style="color:#484f58; font-size:11px; margin:0 0 8px 0; line-height:1.5;">&copy; 2026 StickFinder. All rights reserved.</p>
+    <p style="color:#3d424a; font-size:10px; margin:0; line-height:1.5;">Store links may contain affiliate links. We may earn a small commission at no extra cost to you.</p>
+  </div>
+</footer>
+
+<script>
+// ============================================================
+// TRANSLATIONS
+// ============================================================
+const LANG = {
+  en: {
+    heroTitle: 'Find Your Perfect Hockey Stick',
+    heroSub: "Enter the player's details and we'll recommend the top 7 sticks — with links to the cheapest stores across Europe and North America.",
+    formTitle: 'Player Profile',
+    lblHeight: 'Height', lblWeight: 'Weight', lblAge: 'Age',
+    lblPosition: 'Player Style', lblSkill: 'Skill Level', lblCountry: 'Country',
+    optPosDefault: 'Select style...',
+    optSniper: '🎯 Sniper — Quick release, wrist shots',
+    optDefender: '🛡️ Defender — Slapshots, hard passes',
+    optPF: '💪 Power Forward — Physical, strong',
+    optGrinder: '⚔️ Grinder / Net-Front Player',
+    optSkillDefault: 'Select level...',
+    optBeginner: '⭐ Beginner — Just starting out',
+    optRecreational: '⭐⭐ Recreational — Plays for fun',
+    optCompetitive: '⭐⭐⭐ Competitive — League / Club',
+    optElite: '⭐⭐⭐⭐ Elite — AAA / Top-level',
+    btnFind: '🏒 Find My Perfect Stick',
+    btnEdit: '← Edit Profile',
+    resultsTitle: 'Top 7 Recommended Sticks',
+    recFlex: 'Recommended Flex', stickSize: 'Stick Size',
+    flexLabel: 'Flex',
+    whyFits: 'Why it fits your style', pros: 'Pros', cons: 'Cons',
+    bladeOptions: 'Blade options:', recBlade: 'Rec. Blade',
+    findPrice: '🛒 Find Best Price',
+    importNote: 'May include import duties',
+    disclaimer: 'Store links open search results on third-party websites. Prices are approximate. For stores outside your country, import duties and VAT may apply — always verify before ordering.',
+    errFillAll: 'Please fill in all fields before searching.',
+    errApi: 'Could not reach the recommendation service. Please try again.',
+    posLabels: { sniper:'Sniper', defender:'Defender', 'power-forward':'Power Forward', grinder:'Grinder' },
+    skillLabels: { beginner:'Beginner', recreational:'Recreational', competitive:'Competitive', elite:'Elite' },
+    sizeLabels: { youth:'Youth', junior:'Junior', intermediate:'Intermediate', senior:'Senior' },
+  },
+  de: {
+    heroTitle: 'Den perfekten Hockeyschläger finden',
+    heroSub: 'Gib die Spielerdaten ein und wir empfehlen die 7 besten Schläger — mit Links zu den günstigsten Shops in Europa und Nordamerika.',
+    formTitle: 'Spielerprofil',
+    lblHeight: 'Grösse', lblWeight: 'Gewicht', lblAge: 'Alter',
+    lblPosition: 'Spielstil', lblSkill: 'Spielniveau', lblCountry: 'Land',
+    optPosDefault: 'Stil wählen...',
+    optSniper: '🎯 Sniper — Schneller Abzug, Handgelenkschüsse',
+    optDefender: '🛡️ Verteidiger — Slapshots, harte Pässe',
+    optPF: '💪 Power Stürmer — Physisch, stark',
+    optGrinder: '⚔️ Grinder / Vors-Tor-Spieler',
+    optSkillDefault: 'Niveau wählen...',
+    optBeginner: '⭐ Anfänger — Gerade begonnen',
+    optRecreational: '⭐⭐ Freizeitspiel — Spielt zum Spaß',
+    optCompetitive: '⭐⭐⭐ Wettkampf — Liga / Verein',
+    optElite: '⭐⭐⭐⭐ Elite — Spitzenniveau',
+    btnFind: '🏒 Meinen perfekten Schläger finden',
+    btnEdit: '← Profil bearbeiten',
+    resultsTitle: 'Top 7 empfohlene Schläger',
+    recFlex: 'Empfohlener Flex', stickSize: 'Schlägergrösse',
+    flexLabel: 'Flex',
+    whyFits: 'Warum er zu dir passt', pros: 'Vorteile', cons: 'Nachteile',
+    bladeOptions: 'Klingenoptionen:', recBlade: 'Empf. Klinge',
+    findPrice: '🛒 Besten Preis finden',
+    importNote: 'Ggf. inkl. Zollgebühren',
+    disclaimer: 'Store-Links öffnen Suchergebnisse auf Drittanbieter-Websites. Preise sind ca. Für Shops ausserhalb deines Landes können Einfuhrzölle und MwSt. anfallen — bitte vor der Bestellung prüfen.',
+    errFillAll: 'Bitte alle Felder ausfüllen.',
+    errApi: 'Empfehlungsdienst nicht erreichbar. Bitte erneut versuchen.',
+    posLabels: { sniper:'Sniper', defender:'Verteidiger', 'power-forward':'Power Stürmer', grinder:'Grinder' },
+    skillLabels: { beginner:'Anfänger', recreational:'Freizeitspieler', competitive:'Wettkampf', elite:'Elite' },
+    sizeLabels: { youth:'Youth', junior:'Junior', intermediate:'Intermediate', senior:'Senior' },
+  },
+  fr: {
+    heroTitle: 'Trouvez votre bâton de hockey idéal',
+    heroSub: "Entrez les données du joueur et nous vous recommanderons les 7 meilleurs bâtons — avec des liens vers les magasins les moins chers en Europe et en Amérique du Nord.",
+    formTitle: 'Profil du joueur',
+    lblHeight: 'Taille', lblWeight: 'Poids', lblAge: 'Âge',
+    lblPosition: 'Style de jeu', lblSkill: 'Niveau', lblCountry: 'Pays',
+    optPosDefault: 'Choisir un style...',
+    optSniper: '🎯 Sniper — Tir rapide, tirs du poignet',
+    optDefender: '🛡️ Défenseur — Tirs frappés, passes puissantes',
+    optPF: '💪 Avant-centre — Physique, puissant',
+    optGrinder: '⚔️ Grinder / Joueur devant le filet',
+    optSkillDefault: 'Choisir un niveau...',
+    optBeginner: '⭐ Débutant — Juste commencé',
+    optRecreational: '⭐⭐ Loisir — Joue pour le plaisir',
+    optCompetitive: '⭐⭐⭐ Compétitif — Ligue / Club',
+    optElite: '⭐⭐⭐⭐ Élite — Niveau AAA / Haute compétition',
+    btnFind: '🏒 Trouver mon bâton parfait',
+    btnEdit: '← Modifier le profil',
+    resultsTitle: 'Top 7 bâtons recommandés',
+    recFlex: 'Flex recommandé', stickSize: 'Taille du bâton',
+    flexLabel: 'Flex',
+    whyFits: 'Pourquoi il vous convient', pros: 'Avantages', cons: 'Inconvénients',
+    bladeOptions: 'Options de palette:', recBlade: 'Palette rec.',
+    findPrice: '🛒 Trouver le meilleur prix',
+    importNote: "Taxes d'import possibles",
+    disclaimer: "Les liens ouvrent des résultats de recherche sur des sites tiers. Les prix sont approximatifs. Pour les boutiques hors de votre pays, des droits de douane et TVA peuvent s'appliquer — vérifiez toujours avant de commander.",
+    errFillAll: 'Veuillez remplir tous les champs avant de rechercher.',
+    errApi: 'Service de recommandation indisponible. Veuillez réessayer.',
+    posLabels: { sniper:'Sniper', defender:'Défenseur', 'power-forward':'Avant-centre', grinder:'Grinder' },
+    skillLabels: { beginner:'Débutant', recreational:'Loisir', competitive:'Compétitif', elite:'Élite' },
+    sizeLabels: { youth:'Youth', junior:'Junior', intermediate:'Intermédiaire', senior:'Sénior' },
+  }
+};
+
+let currentLang = 'en';
+let lastResultData = null;
+let lastResultPosition = null;
+let lastResultSkill = null;
+let lastResultCountry = null;
+
+function t(key) { return LANG[currentLang][key] || LANG.en[key] || key; }
+
+function setLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector(`.lang-btn[onclick="setLang('${lang}')"]`).classList.add('active');
+  applyTranslations();
+  // Re-render results if visible
+  if (lastResultData && !document.getElementById('results-section').classList.contains('section-hidden')) {
+    renderSummary(lastResultData, lastResultPosition, lastResultSkill);
+    document.getElementById('sticks-container').innerHTML =
+      lastResultData.sticks.map((s, i) => renderCard(s, i + 1, lastResultPosition, lastResultCountry, lastResultData.flex, lastResultData.size)).join('');
+  }
+}
+
+function applyTranslations() {
+  const keys = [
+    ['hero-title','heroTitle'],['hero-sub','heroSub'],['form-title','formTitle'],
+    ['lbl-height','lblHeight'],['lbl-weight','lblWeight'],['lbl-age','lblAge'],
+    ['lbl-position','lblPosition'],['lbl-skill','lblSkill'],['lbl-country','lblCountry'],
+    ['btn-find-text','btnFind'],['btn-edit','btnEdit'],['results-title','resultsTitle'],
+    ['disclaimer-text','disclaimer'],
+  ];
+  keys.forEach(([id, key]) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = t(key);
+  });
+  const opts = [
+    ['opt-pos-default','optPosDefault'],['opt-sniper','optSniper'],['opt-defender','optDefender'],
+    ['opt-pf','optPF'],['opt-grinder','optGrinder'],['opt-skill-default','optSkillDefault'],
+    ['opt-beginner','optBeginner'],['opt-recreational','optRecreational'],
+    ['opt-competitive','optCompetitive'],['opt-elite','optElite'],
+  ];
+  opts.forEach(([id, key]) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = t(key);
+  });
+}
+
+// ============================================================
+// STICK DATABASE — removed; now fetched from /api/sticks/recommend
+// ============================================================
+// The embedded STICKS array (63 models) has been removed.
+// All stick data is now served exclusively by the backend API.
+
+// ============================================================
+// STORE DATABASE
+// ============================================================
+const STORES = [
+  // === EUROPEAN STORES (no import for EU / low for CH) ===
+  {
+    id: 'skatepro', name: 'Skatepro', flag: '🇪🇺',
+    note: { en:'Ships all EU + CH', de:'Liefert in ganz EU + CH', fr:'Livraison UE + CH' },
+    import: false,
+    regions: ['EU','CH','GB'],
+    url: q => `https://www.skatepro.eu/en/search/?q=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'sport-bittl', name: 'Sport Bittl', flag: '🇩🇪',
+    note: { en:'DACH specialist', de:'DACH-Spezialist', fr:'Spécialiste DACH' },
+    import: false,
+    regions: ['EU','CH'],
+    url: q => `https://www.sport-bittl.com/search?sSearch=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'kingsport', name: 'Kingsport', flag: '🇫🇮',
+    note: { en:'Nordic hockey specialist', de:'Nordischer Hockeyspézialist', fr:'Spécialiste hockey nordique' },
+    import: false,
+    regions: ['EU','CH'],
+    url: q => `https://www.kingsport.fi/en/catalogsearch/result/?q=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'hockey-express', name: 'Hockey Express', flag: '🇬🇧',
+    note: { en:'UK hockey specialist', de:'UK-Hockeyspezialist', fr:'Spécialiste hockey UK' },
+    import: false,
+    regions: ['GB','EU','CH'],
+    url: q => `https://www.hockeyexpress.co.uk/catalogsearch/result/?q=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'amazon-de', name: 'Amazon.de', flag: '🛒',
+    note: { en:'Fast EU delivery', de:'Schnelle EU-Lieferung', fr:'Livraison rapide UE' },
+    import: false,
+    regions: ['EU','CH'],
+    url: q => `https://www.amazon.de/s?k=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'amazon-uk', name: 'Amazon.co.uk', flag: '🛒',
+    note: { en:'UK fast delivery', de:'Schnelle UK-Lieferung', fr:'Livraison rapide UK' },
+    import: false,
+    regions: ['GB'],
+    url: q => `https://www.amazon.co.uk/s?k=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'ebay-de', name: 'eBay.de', flag: '🔨',
+    note: { en:'New & used — often cheapest', de:'Neu & gebraucht — oft günstigster', fr:'Neuf & occasion — souvent le moins cher' },
+    import: false,
+    regions: ['EU','CH'],
+    url: q => `https://www.ebay.de/sch/i.html?_nkw=${encodeURIComponent(q)}&_sacat=0`,
+  },
+  {
+    id: 'ebay-uk', name: 'eBay.co.uk', flag: '🔨',
+    note: { en:'New & used', de:'Neu & gebraucht', fr:'Neuf & occasion' },
+    import: false,
+    regions: ['GB'],
+    url: q => `https://www.ebay.co.uk/sch/i.html?_nkw=${encodeURIComponent(q)}&_sacat=0`,
+  },
+  // === ADDITIONAL EUROPEAN STORES ===
+  {
+    id: 'sportega', name: 'Sportega', flag: '🇨🇿',
+    note: { en:'Great prices, ships across EU', de:'Super Preise, EU-weiter Versand', fr:'Très bons prix, livraison UE' },
+    import: false,
+    regions: ['EU','CH'],
+    url: q => `https://www.sportega.com/en/search?q=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'hps-sport', name: 'HPS Hockey Shop', flag: '🇩🇪',
+    note: { en:'German hockey specialist', de:'Deutscher Hockey-Spezialist', fr:'Spécialiste hockey allemand' },
+    import: false,
+    regions: ['EU','CH'],
+    url: q => `https://hockey.hps-sport-shop.de/catalogsearch/result/?q=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'ochsner-hockey', name: 'Ochsner Hockey', flag: '🇨🇭',
+    note: { en:"Switzerland's hockey specialist", de:'Schweizer Hockey-Spezialist', fr:'Spécialiste hockey suisse' },
+    import: false,
+    regions: ['CH','EU'],
+    url: q => `https://www.ochsnerhockey.ch/de/search?q=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'conte-hockey', name: 'Conte Hockey Shop', flag: '🇨🇭',
+    note: { en:'Swiss hockey store', de:'Schweizer Hockey-Laden', fr:'Magasin de hockey suisse' },
+    import: false,
+    regions: ['CH','EU'],
+    url: q => `https://www.contehockeyshop.ch/search?q=${encodeURIComponent(q)}`,
+  },
+  // === NORTH AMERICAN STORES (import duties for EU/CH) ===
+  {
+    id: 'pure-hockey', name: 'Pure Hockey', flag: '🇺🇸',
+    note: { en:'US hockey specialist', de:'US-Hockeyspezialist', fr:'Spécialiste hockey US' },
+    import: true,
+    regions: ['US','CA','EU','CH','GB'],
+    url: q => `https://www.purehockey.com/search?q=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'hockey-monkey', name: 'HockeyMonkey', flag: '🇺🇸',
+    note: { en:'Huge selection, ships worldwide', de:'Riesige Auswahl, weltweiter Versand', fr:'Énorme sélection, livraison mondiale' },
+    import: true,
+    regions: ['US','CA','EU','CH','GB'],
+    url: q => `https://www.hockeymonkey.com/search?q=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'ice-warehouse', name: 'Ice Warehouse', flag: '🇺🇸',
+    note: { en:'Competitive US prices', de:'Wettbewerbsfähige US-Preise', fr:'Prix compétitifs US' },
+    import: true,
+    regions: ['US','CA','EU','CH','GB'],
+    url: q => `https://www.icewarehouse.com/search.html?q=${encodeURIComponent(q)}`,
+  },
+  {
+    id: 'pro-hockey-life', name: 'Pro Hockey Life', flag: '🇨🇦',
+    note: { en:'Canada\'s largest hockey store', de:'Kanadas größter Hockeyladen', fr:'Le plus grand magasin de hockey du Canada' },
+    import: true,
+    regions: ['CA','US','EU','CH','GB'],
+    url: q => `https://www.prohockeylife.com/search?type=product&q=${encodeURIComponent(q)}`,
+  },
+  // === GOOGLE SHOPPING (always works) ===
+  {
+    id: 'google-shopping', name: 'Google Shopping', flag: '🔍',
+    note: { en:'Compare all stores at once', de:'Alle Shops auf einen Blick', fr:'Comparer tous les magasins' },
+    import: false,
+    regions: ['EU','CH','GB','US','CA'],
+    url: q => `https://www.google.com/search?tbm=shop&q=${encodeURIComponent(q)}`,
+  },
+];
+
+// Country -> region mapping
+const COUNTRY_REGION = {
+  AT:'EU',BE:'EU',HR:'EU',CZ:'EU',DK:'EU',EE:'EU',FI:'EU',FR:'EU',DE:'EU',
+  HU:'EU',IT:'EU',LV:'EU',LT:'EU',NL:'EU',NO:'EU',PL:'EU',SK:'EU',SI:'EU',
+  ES:'EU',SE:'EU',GB:'GB',CH:'CH',CA:'CA',US:'US',
+};
+
+function getStoresForCountry(countryCode, maxCount = 7) {
+  const region = COUNTRY_REGION[countryCode] || 'EU';
+
+  // Priority: country-primary stores first (region listed first), then other local, then NA, then Google
+  const primary = STORES.filter(s => s.regions[0] === region && !s.import && s.id !== 'google-shopping');
+  const secondary = STORES.filter(s => s.regions[0] !== region && s.regions.includes(region) && !s.import && s.id !== 'google-shopping');
+  const local = [...primary, ...secondary];
+  const overseas = STORES.filter(s => s.import && s.regions.includes(region));
+  const google = STORES.find(s => s.id === 'google-shopping');
+
+  const ordered = [...local, ...overseas, google].filter(Boolean);
+  // Deduplicate
+  const seen = new Set();
+  const unique = ordered.filter(s => { if (seen.has(s.id)) return false; seen.add(s.id); return true; });
+  return unique.slice(0, maxCount);
+}
+
+// ============================================================
+// HELPERS (kept from former local recommendation engine)
+// ============================================================
+function toKg(val, unit) { return unit === 'lbs' ? val / 2.2046 : val; }
+function toCm(val, unit) { return unit === 'in' ? val * 2.54 : val; }
+
+// ============================================================
+// UI RENDERING
+// ============================================================
+const BRAND_COLORS = {
+  Bauer:   { bg:'rgba(59,130,246,0.12)',  border:'#3b82f6', text:'#60a5fa' },
+  CCM:     { bg:'rgba(239,68,68,0.12)',   border:'#ef4444', text:'#f87171' },
+  True:    { bg:'rgba(139,92,246,0.12)',  border:'#8b5cf6', text:'#a78bfa' },
+  Warrior: { bg:'rgba(16,185,129,0.12)', border:'#10b981', text:'#34d399' },
+};
+const RANK_STYLES = [
+  { bg:'#FFD700', color:'#000' },
+  { bg:'#C0C0C0', color:'#000' },
+  { bg:'#CD7F32', color:'#fff' },
+  { bg:'#21262d', color:'#8b949e' },
+  { bg:'#21262d', color:'#8b949e' },
+  { bg:'#21262d', color:'#8b949e' },
+  { bg:'#21262d', color:'#8b949e' },
+];
+const KICK_COLORS = { low:'#34d399', 'mid-low':'#60a5fa', mid:'#f59e0b', 'mid-high':'#f97316', high:'#ef4444' };
+
+function txt(obj) {
+  if (typeof obj === 'string') return obj;
+  return obj[currentLang] || obj.en || '';
+}
+
+function renderSummary(data, position, skill) {
+  const { flex, size, heightCm, weightKg } = data;
+  const hIn = Math.round(heightCm / 2.54);
+  const ft = Math.floor(hIn / 12); const inch = hIn % 12;
+  const posL = t('posLabels')[position] || position;
+  const skillL = t('skillLabels')[skill] || skill;
+  const sizeL = t('sizeLabels')[size] || size;
+  document.getElementById('summary-bar').innerHTML = `
+    <div style="display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:space-between;">
+      <div>
+        <p style="color:#8b949e; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px;">${t('formTitle')}</p>
+        <div style="display:flex; flex-wrap:wrap; gap:6px;">
+          <span class="tag" style="background:#21262d; color:#e6edf3;">${Math.round(heightCm)} cm (${ft}'${inch}")</span>
+          <span class="tag" style="background:#21262d; color:#e6edf3;">${Math.round(weightKg)} kg</span>
+          <span class="tag" style="background:rgba(88,166,255,0.12); color:#58a6ff; border:1px solid rgba(88,166,255,0.3);">${posL}</span>
+          <span class="tag" style="background:rgba(52,211,153,0.1); color:#34d399; border:1px solid rgba(52,211,153,0.25);">${skillL}</span>
+        </div>
+      </div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <div class="spec-box">
+          <p style="color:#8b949e; font-size:11px; margin-bottom:4px;">${t('recFlex')}</p>
+          <p style="color:#f59e0b; font-weight:800; font-size:20px;">${flex-5}–${flex+5}</p>
+        </div>
+        <div class="spec-box">
+          <p style="color:#8b949e; font-size:11px; margin-bottom:4px;">${t('stickSize')}</p>
+          <p style="color:#e6edf3; font-weight:700; font-size:15px;">${sizeL}</p>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderCard(stick, rank, position, country, flex, size) {
+  const c = BRAND_COLORS[stick.brand] || BRAND_COLORS.Bauer;
+  const rs = RANK_STYLES[rank - 1];
+  const kc = KICK_COLORS[stick.kickpoint] || '#f59e0b';
+  const blade = typeof stick.recBlade === 'string' ? stick.recBlade : (stick.recBlade?.[position] || stick.bladePatterns?.[0] || '—');
+  const price = stick.priceEUR ? (stick.priceEUR[size] || stick.priceEUR.senior || '—') : '—';
+  const apiStores = stick._apiStores || stick.stores || [];
+  const whyText = stick.why ? (typeof stick.why === 'string' ? stick.why : txt(stick.why[position]) || txt(stick.why)) : '';
+
+  const storeLinks = apiStores.map(s => {
+    const noteText = txt(s.note);
+    return `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="store-link">
+      ${s.flag} ${s.name}
+      ${s.import ? `<span class="import-badge">+import</span>` : ''}
+    </a>`;
+  }).join('');
+
+  const prosHtml = (stick.pros[currentLang] || stick.pros.en).map(p =>
+    `<p style="color:#8b949e; font-size:12px; margin-bottom:2px;">✓ ${p}</p>`).join('');
+  const consHtml = (stick.cons[currentLang] || stick.cons.en).map(c =>
+    `<p style="color:#8b949e; font-size:12px; margin-bottom:2px;">✗ ${c}</p>`).join('');
+  const bladeChips = stick.bladePatterns.map(b =>
+    `<span class="tag" style="background:#21262d; color:#8b949e; font-size:11px;">${b}</span>`).join('');
+
+  return `<div class="stick-card" style="border-color:${c.border};">
+    <!-- Header -->
+    <div style="display:flex; gap:12px; align-items:flex-start; margin-bottom:14px;">
+      <div class="rank-badge" style="background:${rs.bg}; color:${rs.color};">${rank}</div>
+      <div style="flex:1;">
+        <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:5px;">
+          <span class="tag" style="background:${c.bg}; color:${c.text}; border:1px solid ${c.border};">${stick.brand}</span>
+          <span class="tag" style="background:rgba(0,0,0,0.3); color:${kc};">${stick.kickpointLabel}</span>
+          <span class="tag" style="background:#21262d; color:#8b949e;">${price}</span>
+        </div>
+        <h3 style="color:#e6edf3; font-weight:800; font-size:17px; margin:0 0 2px 0;">${stick.model}</h3>
+        <p style="color:#8b949e; font-size:13px; margin:0;">${txt(stick.tagline)}</p>
+      </div>
+    </div>
+
+    <!-- Why it fits -->
+    <div style="background:${c.bg}; border:1px solid ${c.border}; border-radius:8px; padding:12px; margin-bottom:14px;">
+      <p style="color:${c.text}; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:5px;">${t('whyFits')}</p>
+      <p style="color:#e6edf3; font-size:13px; line-height:1.55; margin:0;">${whyText}</p>
+    </div>
+
+    <!-- Specs -->
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:14px;">
+      <div class="spec-box">
+        <p style="color:#8b949e; font-size:11px; margin-bottom:3px;">${t('flexLabel')}</p>
+        <p style="color:#f59e0b; font-weight:700; font-size:14px;">${flex-5}–${flex+5}</p>
+      </div>
+      <div class="spec-box">
+        <p style="color:#8b949e; font-size:11px; margin-bottom:3px;">${t('recBlade')}</p>
+        <p style="color:#e6edf3; font-weight:700; font-size:14px;">${blade}</p>
+      </div>
+      <div class="spec-box">
+        <p style="color:#8b949e; font-size:11px; margin-bottom:3px;">${t('stickSize')}</p>
+        <p style="color:#e6edf3; font-weight:700; font-size:13px; text-transform:capitalize;">${size}</p>
+      </div>
+    </div>
+
+    <!-- Blade options -->
+    <div style="margin-bottom:12px;">
+      <span style="color:#8b949e; font-size:12px;">${t('bladeOptions')} </span>
+      ${bladeChips}
+    </div>
+
+    <!-- Pros / Cons -->
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:14px;">
+      <div>
+        <p style="color:#34d399; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">${t('pros')}</p>
+        ${prosHtml}
+      </div>
+      <div>
+        <p style="color:#f87171; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">${t('cons')}</p>
+        ${consHtml}
+      </div>
+    </div>
+
+    <!-- Store Links -->
+    <div>
+      <p style="color:#8b949e; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:8px;">${t('findPrice')}</p>
+      <div style="display:flex; flex-wrap:wrap; gap:6px;">${storeLinks}</div>
+      ${apiStores.some(s => s.import) ? `<p style="color:#8b949e; font-size:11px; margin-top:6px; opacity:0.7;">⚠️ ${t('importNote')}</p>` : ''}
+    </div>
+  </div>`;
+}
+
+// ============================================================
+// FORM LOGIC
+// ============================================================
+async function findSticks() {
+  const heightRaw = parseFloat(document.getElementById('inp-height').value);
+  const heightUnit = document.getElementById('inp-height-unit').value;
+  const weightRaw = parseFloat(document.getElementById('inp-weight').value);
+  const weightUnit = document.getElementById('inp-weight-unit').value;
+  const age = parseInt(document.getElementById('inp-age').value);
+  const position = document.getElementById('inp-position').value;
+  const skill = document.getElementById('inp-skill').value;
+  const country = document.getElementById('inp-country').value;
+
+  const err = document.getElementById('error-msg');
+  if (!heightRaw || !weightRaw || !age || !position || !skill || !country) {
+    err.textContent = t('errFillAll'); err.style.display = 'block'; return;
+  }
+  err.style.display = 'none';
+
+  // Fetch recommendations from backend API
+  let data;
+  try {
+    const params = new URLSearchParams({
+      height: heightRaw, height_unit: heightUnit,
+      weight: weightRaw, weight_unit: weightUnit,
+      age, position, skill_level: skill, country,
+    });
+    const resp = await fetch(`/api/sticks/recommend?${params}`);
+    if (!resp.ok) {
+      throw new Error('API returned ' + resp.status);
+    }
+    const apiData = await resp.json();
+    // Map API response to match rendering data structure
+    data = {
+      sticks: apiData.recommendations.map(s => ({
+        ...s,
+        _apiStores: s.stores,
+      })),
+      flex: apiData.flex,
+      size: apiData.size,
+      heightCm: apiData.heightCm,
+      weightKg: apiData.weightKg,
+    };
+  } catch (e) {
+    console.error('API error:', e.message);
+    err.textContent = t('errApi'); err.style.display = 'block';
+    return;
+  }
+
+  // Store for language-switch re-rendering
+  lastResultData = data;
+  lastResultPosition = position;
+  lastResultSkill = skill;
+  lastResultCountry = country;
+
+  document.getElementById('form-section').style.display = 'none';
+  document.getElementById('results-section').classList.remove('section-hidden');
+
+  document.getElementById('results-title').textContent = t('resultsTitle');
+  document.getElementById('btn-edit').textContent = t('btnEdit');
+  document.getElementById('disclaimer-text').textContent = t('disclaimer');
+
+  renderSummary(data, position, skill);
+
+  document.getElementById('sticks-container').innerHTML =
+    data.sticks.map((s, i) => renderCard(s, i + 1, position, country, data.flex, data.size)).join('');
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function resetForm() {
+  document.getElementById('form-section').style.display = '';
+  document.getElementById('results-section').classList.add('section-hidden');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Init
+applyTranslations();
+
+// Fetch database last-updated timestamp
+(async function() {
+  try {
+    const resp = await fetch('/api/sticks');
+    if (resp.ok) {
+      const data = await resp.json();
+      const ts = data.lastUpdated || data.last_updated || data.timestamp;
+      if (ts) {
+        const date = new Date(ts);
+        const formatted = date.toLocaleDateString(undefined, { year:'numeric', month:'short', day:'numeric' });
+        const el = document.getElementById('db-updated');
+        el.textContent = 'Database last updated: ' + formatted;
+        el.style.display = '';
+      }
+    }
+  } catch(e) { /* silently ignore if API unavailable */ }
+})();
+</script>
+</body>
+</html>
