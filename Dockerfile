@@ -46,9 +46,11 @@ COPY scraper.js ./
 COPY recommender.js ./
 COPY stores.js ./
 COPY index.html ./
+COPY impressum.html ./
+COPY datenschutz.html ./
 
-# Create data directory for stick database persistence
-RUN mkdir -p /app/data
+# Copy data directory with stick database
+COPY data/ ./data/
 
 EXPOSE 3000
 
