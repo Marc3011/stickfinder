@@ -109,8 +109,8 @@ cron.schedule('0 3 * * *', async () => {
   }
 });
 
-// Serve index.html for all non-API routes (SPA fallback)
-app.get('*', (req, res) => {
+// Serve index.html only for the root path (let express.static handle other files)
+app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
