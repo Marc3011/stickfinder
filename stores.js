@@ -21,14 +21,14 @@ const STORES = [
     note: { en: 'Nordic hockey specialist', de: 'Nordischer Hockeyspezialist', fr: 'Spécialiste hockey nordique' },
     import: false,
     regions: ['EU', 'CH'],
-    searchUrl: q => `https://www.kingsport.fi/en/catalogsearch/result/?q=${encodeURIComponent(q)}`,
+    searchUrl: q => `https://www.google.com/search?q=site:kingsport.fi+${encodeURIComponent(q)}`,
   },
   {
     id: 'hockey-express', name: 'Hockey Express', flag: '🇬🇧',
     note: { en: 'UK hockey specialist', de: 'UK-Hockeyspezialist', fr: 'Spécialiste hockey UK' },
     import: false,
     regions: ['GB', 'EU', 'CH'],
-    searchUrl: q => `https://www.hockeyexpress.co.uk/catalogsearch/result/?q=${encodeURIComponent(q)}`,
+    searchUrl: q => `https://www.google.com/search?q=site:hockeyexpress.co.uk+${encodeURIComponent(q)}`,
   },
   {
     id: 'amazon-de', name: 'Amazon.de', flag: '🛒',
@@ -64,28 +64,28 @@ const STORES = [
     note: { en: 'Great prices, ships across EU', de: 'Super Preise, EU-weiter Versand', fr: 'Très bons prix, livraison dans toute l\'UE' },
     import: false,
     regions: ['EU', 'CH'],
-    searchUrl: q => `https://www.sportega.com/en/search?q=${encodeURIComponent(q)}`,
+    searchUrl: q => `https://www.sportega.com/en/search/?q=${encodeURIComponent(q)}`,
   },
   {
     id: 'hps-sport', name: 'HPS Hockey Shop', flag: '🇩🇪',
     note: { en: 'German hockey specialist — competitive prices', de: 'Deutscher Hockey-Spezialist — wettbewerbsfähige Preise', fr: 'Spécialiste hockey allemand — prix compétitifs' },
     import: false,
     regions: ['EU', 'CH'],
-    searchUrl: q => `https://hockey.hps-sport-shop.de/catalogsearch/result/?q=${encodeURIComponent(q)}`,
+    searchUrl: q => `https://hockey.hps-sport-shop.de/search?q=${encodeURIComponent(q)}`,
   },
   {
     id: 'ochsner-hockey', name: 'Ochsner Hockey', flag: '🇨🇭',
     note: { en: 'Switzerland\'s hockey specialist', de: 'Schweizer Hockey-Spezialist', fr: 'Spécialiste hockey suisse' },
     import: false,
     regions: ['CH', 'EU'],
-    searchUrl: q => `https://www.ochsnerhockey.ch/de/search?q=${encodeURIComponent(q)}`,
+    searchUrl: q => `https://www.google.com/search?q=site:ochsnerhockey.ch+${encodeURIComponent(q)}`,
   },
   {
     id: 'conte-hockey', name: 'Conte Hockey Shop', flag: '🇨🇭',
     note: { en: 'Swiss hockey store — good selection', de: 'Schweizer Hockey-Laden — gute Auswahl', fr: 'Magasin de hockey suisse — bon choix' },
     import: false,
     regions: ['CH', 'EU'],
-    searchUrl: q => `https://www.contehockeyshop.ch/search?q=${encodeURIComponent(q)}`,
+    searchUrl: q => `https://www.contehockeyshop.ch/catalogsearch/result/?q=${encodeURIComponent(q)}`,
   },
   // === NORTH AMERICAN STORES ===
   {
@@ -93,7 +93,7 @@ const STORES = [
     note: { en: 'US hockey specialist', de: 'US-Hockeyspezialist', fr: 'Spécialiste hockey US' },
     import: true,
     regions: ['US', 'CA', 'EU', 'CH', 'GB'],
-    searchUrl: q => `https://www.purehockey.com/search?q=${encodeURIComponent(q)}`,
+    searchUrl: q => `https://www.google.com/search?q=site:purehockey.com+${encodeURIComponent(q)}`,
   },
   {
     id: 'hockey-monkey', name: 'HockeyMonkey', flag: '🇺🇸',
@@ -151,7 +151,7 @@ function getStoresForCountry(countryCode, maxCount = 7) {
 
 function getStoreLinksForStick(stick, size, countryCode, maxCount = 7) {
   const stores = getStoresForCountry(countryCode, maxCount);
-  const searchQuery = `${stick.brand} ${stick.model} ${size} hockey stick`;
+  const searchQuery = `${stick.brand} ${stick.model} ${size}`;
   return stores.map(store => ({
     id: store.id,
     name: store.name,
