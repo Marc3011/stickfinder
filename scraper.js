@@ -669,10 +669,18 @@ function loadSticks() {
 
 function saveSticks(sticks) {
   try {
+    // SAFETY: Never overwrite database with fewer sticks than before
+    const existing = loadSticks();
+    if (sticks.length < existing.length) {
+      console.log(`[Scraper] SAFETY: Refusing to save ${sticks.length} sticks (had ${existing.length}). Scrape may have failed.`);
+      return false;
+    }
     fs.writeFileSync(DATA_FILE, JSON.stringify(sticks, null, 2));
     console.log(`[Scraper] Saved ${sticks.length} sticks to ${DATA_FILE}`);
+    return true;
   } catch (e) {
     console.log('[Scraper] Could not save sticks.json:', e.message);
+    return false;
   }
 }
 
