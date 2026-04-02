@@ -118,6 +118,13 @@
       transition: all 0.15s; white-space: nowrap;
     }
     .store-link:hover { background: #30363d; border-color: #58a6ff; color: #58a6ff; }
+    .official-link {
+      display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px;
+      background: rgba(88,166,255,0.1); border: 1px solid #58a6ff; border-radius: 8px;
+      text-decoration: none; color: #58a6ff; font-size: 13px; font-weight: 600;
+      transition: all 0.15s; margin-bottom: 10px;
+    }
+    .official-link:hover { background: rgba(88,166,255,0.2); color: #79c0ff; }
     .store-link .import-badge {
       background: rgba(248,113,113,0.15); color: #f87171;
       padding: 1px 6px; border-radius: 10px; font-size: 10px; font-weight: 700;
@@ -362,6 +369,7 @@ const LANG = {
     whyFits: 'Why it fits your style', pros: 'Pros', cons: 'Cons',
     bladeOptions: 'Blade options:', recBlade: 'Rec. Blade',
     findPrice: '🛒 Find Best Price',
+    viewOfficial: '🔗 View on official site',
     importNote: 'May include import duties',
     disclaimer: 'Store links open search results on third-party websites. Prices are approximate. For stores outside your country, import duties and VAT may apply — always verify before ordering.',
     errFillAll: 'Please fill in all fields before searching.',
@@ -394,6 +402,7 @@ const LANG = {
     whyFits: 'Warum er zu dir passt', pros: 'Vorteile', cons: 'Nachteile',
     bladeOptions: 'Klingenoptionen:', recBlade: 'Empf. Klinge',
     findPrice: '🛒 Besten Preis finden',
+    viewOfficial: '🔗 Auf offizieller Seite ansehen',
     importNote: 'Ggf. inkl. Zollgebühren',
     disclaimer: 'Store-Links öffnen Suchergebnisse auf Drittanbieter-Websites. Preise sind ca. Für Shops ausserhalb deines Landes können Einfuhrzölle und MwSt. anfallen — bitte vor der Bestellung prüfen.',
     errFillAll: 'Bitte alle Felder ausfüllen.',
@@ -426,6 +435,7 @@ const LANG = {
     whyFits: 'Pourquoi il vous convient', pros: 'Avantages', cons: 'Inconvénients',
     bladeOptions: 'Options de palette:', recBlade: 'Palette rec.',
     findPrice: '🛒 Trouver le meilleur prix',
+    viewOfficial: '🔗 Voir sur le site officiel',
     importNote: "Taxes d'import possibles",
     disclaimer: "Les liens ouvrent des résultats de recherche sur des sites tiers. Les prix sont approximatifs. Pour les boutiques hors de votre pays, des droits de douane et TVA peuvent s'appliquer — vérifiez toujours avant de commander.",
     errFillAll: 'Veuillez remplir tous les champs avant de rechercher.',
@@ -780,6 +790,13 @@ function renderCard(stick, rank, position, country, flex, size) {
         ${consHtml}
       </div>
     </div>
+
+    <!-- Official Site Link -->
+    ${stick.officialUrl ? `<div style="margin-bottom:10px;">
+      <a href="${stick.officialUrl}" target="_blank" rel="noopener noreferrer" class="official-link">
+        ${t('viewOfficial')} — ${stick.brand}.com
+      </a>
+    </div>` : ''}
 
     <!-- Store Links -->
     <div>
