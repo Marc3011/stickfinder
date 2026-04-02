@@ -98,16 +98,22 @@ app.get('/api/status', (req, res) => {
 });
 
 // Schedule daily scrape at 3:00 AM
-cron.schedule('0 3 * * *', async () => {
-  console.log('[Cron] Running scheduled scrape...');
-  try {
-    await runScrape();
-    sticks = loadSticks();
-    console.log('[Cron] Scrape completed. Reloaded sticks.');
-  } catch (err) {
-    console.error('[Cron] Scrape failed:', err.message);
-  }
-});
+// Only runs if ENABLE_SCRAPER=true (requires Chromium in the environment)
+if (process.env.ENABLE_SCRAPER === 'true') {
+  cron.schedule('0 3 * * *', async () => {
+    console.log('[Cron] Running scheduled scrape...');
+    try {
+      await runScrape();
+      sticks = loadSticks();
+      console.log('[Cron] Scrape completed. Reloaded sticks.');
+    } catch (err) {
+      console.error('[Cron] Scrape failed:', err.message);
+    }
+  });
+  console.log('Daily scrape scheduled for 3:00 AM');
+} else {
+  console.log('Scraper disabled. Set ENABLE_SCRAPER=true to enable.');
+}
 
 // Serve index.html only for the root path (let express.static handle other files)
 app.get('/', (req, res) => {
